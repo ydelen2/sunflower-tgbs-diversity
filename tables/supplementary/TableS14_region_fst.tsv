@@ -1,0 +1,11 @@
+REGION1	REGION2	N1	N2	MEAN_FST	WEIGHTED_FST
+Asia_-_Oceania	Eastern_Europe_-_W_Asia	19	96	0.01672	0.024768
+Asia_-_Oceania	North_America	19	83	0.050243	0.063448
+Asia_-_Oceania	South_America	19	16	0.021175	0.032507
+Asia_-_Oceania	Western_Europe	19	55	0.019998	0.028344
+Eastern_Europe_-_W_Asia	North_America	96	83	0.018906	0.022512
+Eastern_Europe_-_W_Asia	South_America	96	16	0.018226	0.027193
+Eastern_Europe_-_W_Asia	Western_Europe	96	55	0.0015908	0.0022841
+North_America	South_America	83	16	0.037763	0.053041
+North_America	Western_Europe	83	55	0.016191	0.02042
+South_America	Western_Europe	16	55	0.015607	0.024748

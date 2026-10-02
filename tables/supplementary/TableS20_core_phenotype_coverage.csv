@@ -1,0 +1,41 @@
+DESCRIPTOR,DESCRIPTION,TYPE,SCHEME,PANEL_N,CORE_N,PANEL_MIN,PANEL_MAX,PANEL_MEAN,CORE_MEAN,CORE_MIN,CORE_MAX,RANGE_COVERAGE,DECILES_COVERED,KS_P,PANEL_CATEGORIES,CORE_CATEGORIES,CATEGORY_COVERAGE,CATEGORIES_MISSED,MISSED_CATEGORY_PANEL_N
+PER_OIL,Seed oil content (per cent),continuous,Whole panel,217,49,17,53,33.88,28.69,17,40,0.639,9,5.96e-06,,,,,
+PER_OIL,Seed oil content (per cent),continuous,Stratified,217,43,17,53,33.88,31.37,17,44,0.75,10,0.0447,,,,,
+OLEIC,Oleic acid (per cent of oil),continuous,Whole panel,149,33,16,68,38.25,38.23,24,62.3333333333333,0.737,10,0.89,,,,,
+OLEIC,Oleic acid (per cent of oil),continuous,Stratified,149,29,16,68,38.25,36.45,21,52,0.596,10,0.291,,,,,
+LINOLEIC,Linoleic acid (per cent of oil),continuous,Whole panel,149,33,20,71,48.88,49.44,23.6666666666667,66,0.83,10,0.828,,,,,
+LINOLEIC,Linoleic acid (per cent of oil),continuous,Stratified,149,29,20,71,48.88,51.24,34,67,0.647,10,0.65,,,,,
+DAY_FLOW,Days to flowering,continuous,Whole panel,234,50,40,99,64.86,67.66,40,99,1,10,0.0866,,,,,
+DAY_FLOW,Days to flowering,continuous,Stratified,234,48,40,99,64.86,65.42,40,90,0.847,10,0.981,,,,,
+BRANCHING1,Plants without branching (per cent),continuous,Whole panel,185,33,5,100,83.68,76.65,16.25,100,0.882,8,0.13,,,,,
+BRANCHING1,Plants without branching (per cent),continuous,Stratified,185,40,5,100,83.68,85.46,10,100,0.947,8,0.607,,,,,
+SEED_SIZE1,Seed passing a 20/64 inch screen (per cent),continuous,Whole panel,204,41,1,100,88.73,82.13,14,100,0.869,7,0.0357,,,,,
+SEED_SIZE1,Seed passing a 20/64 inch screen (per cent),continuous,Stratified,204,43,1,100,88.73,86.71,21,100,0.798,7,0.782,,,,,
+SCLER_BASALSTEM_ROT,Plants resistant to Sclerotinia basal stem rot (per cent),continuous,Whole panel,181,37,3,164,88.84,93.96,6,148,0.882,9,0.294,,,,,
+SCLER_BASALSTEM_ROT,Plants resistant to Sclerotinia basal stem rot (per cent),continuous,Stratified,181,34,3,164,88.84,94.24,6,148,0.882,9,0.454,,,,,
+PHOMOPSIS,Plants resistant to Phomopsis (per cent),continuous,Whole panel,90,21,37,97,69.89,76.29,57,96,0.65,9,0.173,,,,,
+PHOMOPSIS,Plants resistant to Phomopsis (per cent),continuous,Stratified,90,14,37,97,69.89,68.36,53,87,0.567,8,0.406,,,,,
+SEED_COLOR,Seed colour,categorical,Whole panel,250,53,,,,,,,,,,5,5,1,"",""
+SEED_COLOR,Seed colour,categorical,Stratified,250,49,,,,,,,,,,5,4,0.8,2,3
+SEED_STRIPES,Seed stripes,categorical,Whole panel,249,52,,,,,,,,,,2,2,1,"",""
+SEED_STRIPES,Seed stripes,categorical,Stratified,249,48,,,,,,,,,,2,2,1,"",""
+SEED_MOTTLING,Seed mottling,categorical,Whole panel,248,53,,,,,,,,,,2,2,1,"",""
+SEED_MOTTLING,Seed mottling,categorical,Stratified,248,49,,,,,,,,,,2,2,1,"",""
+SEED_PIG_ANTH,Seed anthocyanin,categorical,Whole panel,241,52,,,,,,,,,,2,2,1,"",""
+SEED_PIG_ANTH,Seed anthocyanin,categorical,Stratified,241,47,,,,,,,,,,2,2,1,"",""
+SEED_STRIPE_COLOR,Seed stripe colour,categorical,Whole panel,219,44,,,,,,,,,,4,4,1,"",""
+SEED_STRIPE_COLOR,Seed stripe colour,categorical,Stratified,219,43,,,,,,,,,,4,4,1,"",""
+SEED_THICK,Seed thickness,categorical,Whole panel,197,39,,,,,,,,,,8,5,0.625,2;7;8,1;2;1
+SEED_THICK,Seed thickness,categorical,Stratified,197,40,,,,,,,,,,8,6,0.75,2;7,1;2
+RAY_FLOW_COLOR,Ray flower colour,categorical,Whole panel,186,34,,,,,,,,,,3,3,1,"",""
+RAY_FLOW_COLOR,Ray flower colour,categorical,Stratified,186,40,,,,,,,,,,3,3,1,"",""
+RAY_FLOW_NUM,Ray flower number,categorical,Whole panel,185,35,,,,,,,,,,4,3,0.75,3,7
+RAY_FLOW_NUM,Ray flower number,categorical,Stratified,185,39,,,,,,,,,,4,3,0.75,3,7
+POLLEN_COLOR,Pollen colour,categorical,Whole panel,181,33,,,,,,,,,,2,2,1,"",""
+POLLEN_COLOR,Pollen colour,categorical,Stratified,181,37,,,,,,,,,,2,2,1,"",""
+STIGMA_COLOR,Stigma colour,categorical,Whole panel,176,33,,,,,,,,,,3,3,1,"",""
+STIGMA_COLOR,Stigma colour,categorical,Stratified,176,36,,,,,,,,,,3,3,1,"",""
+BRACT_TIGHT,Bract tightness,categorical,Whole panel,186,35,,,,,,,,,,5,5,1,"",""
+BRACT_TIGHT,Bract tightness,categorical,Stratified,186,39,,,,,,,,,,5,4,0.8,9,7
+DAY_FLOW_UNIF,Flowering uniformity,categorical,Whole panel,174,34,,,,,,,,,,6,5,0.833,0,1
+DAY_FLOW_UNIF,Flowering uniformity,categorical,Stratified,174,40,,,,,,,,,,6,5,0.833,0,1

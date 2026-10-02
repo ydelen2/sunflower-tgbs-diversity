@@ -1,0 +1,9 @@
+TEST,TERM,STATISTIC,DF1,DF2,P_VALUE,N,NOTE
+Seed oil content by cluster,Cluster,28.23,5,211,7.27e-22,217,one-way analysis of variance
+PC1 by market type,Oilseed versus confection,7.44,14.4,,2.64e-06,21,Welch two-sample t test
+PC1 against seed oil content,Pearson correlation,-0.654,215,,7.33e-28,217,two-sided test of zero correlation
+PC1 by heterotic group,Maintainer versus restorer,-2.3,27.5,,0.0291,49,Welch two-sample t test
+Genomic inbreeding against missing rate,Pearson correlation,0.506,272,,2.94e-19,274,two-sided test of zero correlation
+Genomic inbreeding against missing rate,Regression slope,0.523,1,272,2.94e-19,274,simple linear regression
+"Genomic inbreeding, cluster adjusted for missing rate",Cluster,27.78,5,267,1.24e-22,274,"analysis of covariance, missing rate as covariate"
+"Genomic inbreeding, cluster adjusted for missing rate",Missing rate slope,0.392,1,267,4.79e-15,274,"slope within clusters, from the same model"

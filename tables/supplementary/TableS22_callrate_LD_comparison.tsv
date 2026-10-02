@@ -1,0 +1,11 @@
+SET	DISTANCE_CLASS	R2	PAIRS
+Permissive set, missing rate up to 0.80	0-2kb	0.4069	2018268
+Permissive set, missing rate up to 0.80	2-10kb	0.1583	891615
+Permissive set, missing rate up to 0.80	10-50kb	0.1297	3548069
+Permissive set, missing rate up to 0.80	50-200kb	0.1068	12528898
+Permissive set, missing rate up to 0.80	200kb-1Mb	0.0781	64306013
+Analysis set	0-2kb	0.4272	753062
+Analysis set	2-10kb	0.1711	201893
+Analysis set	10-50kb	0.1392	727918
+Analysis set	50-200kb	0.1015	2527006
+Analysis set	200kb-1Mb	0.0597	12667187

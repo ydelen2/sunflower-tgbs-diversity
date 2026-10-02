@@ -1,0 +1,33 @@
+# conda/mamba environment for the whole pipeline
+#   mamba env create -f environment.yml -p /work/dweikat/ydelen2/envs/sunflower
+# Post-install (not on conda):
+#   R -e 'install.packages("corehunter", repos="https://cloud.r-project.org")'   # CRAN, needs rJava/openjdk
+#   git clone https://github.com/BGI-shenzhen/PopLDdecay && cd PopLDdecay && ./configure && make
+#     (optional; slurm/06 falls back to plink --r2 without it)
+#   export SUNFLOWER_CONDA=$WORK/envs/sunflower
+name: sunflower
+channels: [conda-forge, bioconda]
+dependencies:
+  - python=3.11
+  - htslib            # bgzip, tabix
+  - bcftools>=1.18
+  - samtools>=1.18
+  - vcftools
+  - plink2
+  - plink             # v1.9 - still needed for --homozyg and --r2
+  - admixture
+  - r-base>=4.3
+  - r-data.table
+  - r-ggplot2
+  - r-ape
+  - r-adegenet
+  - r-poppr
+  - r-hierfstat
+  - r-vcfr
+  - r-pegas
+  - r-reshape2
+  - r-rjava
+  - openjdk
+  - bioconductor-snprelate
+  - bioconductor-ggtree
+  - r-cairo

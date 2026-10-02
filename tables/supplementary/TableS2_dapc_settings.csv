@@ -1,0 +1,9 @@
+SETTING,VALUE
+"Number of discriminant groups (successive K-means, diffNgroup)",5
+Principal components available to K-means,200
+Principal components retained for the discriminant step,40
+Discriminant functions retained,4
+Cross-validation replicates,10
+Training fraction,0.9
+Mean proportion of correct assignment at the retained number of components,0.9648
+Root mean squared error at the retained number of components,0.0459
