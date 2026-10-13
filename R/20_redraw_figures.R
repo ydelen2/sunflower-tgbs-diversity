@@ -80,9 +80,9 @@ if (have(f_sk)) {
   ss <- fread(f_sk)
   ss[, HET_PER_ALL := HO * (1 - MISS_RATE)]
   pl <- melt(ss[, .(SAMPLE, MISS_RATE,
-                    `Heterozygous / called sites` = HO,
-                    `Heterozygous / called, common sites` = CORE_HO,
-                    `Heterozygous / all sites` = HET_PER_ALL)],
+                    `(a) Heterozygous / called sites` = HO,
+                    `(b) Heterozygous / called, common sites` = CORE_HO,
+                    `(c) Heterozygous / all sites` = HET_PER_ALL)],
              id.vars = c("SAMPLE", "MISS_RATE"), variable.name = "which", value.name = "Ho")
   p <- ggplot(pl, aes(MISS_RATE, Ho)) +
     geom_point(alpha = .6, size = 1.6, colour = PAL[1]) +
