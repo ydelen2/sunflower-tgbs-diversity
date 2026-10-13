@@ -85,7 +85,8 @@ cd $PROJ/analysis && bash run_all.sh
 | `R/17_manuscript_stats.R` | steps 03, `R/11` to `R/14` | Tables S1, S5, S9 and S13, imputation check of the principal components |
 | `R/18_fst_intervals.R` | step 02, `R/12`, `R/14` | Table S10 |
 | `R/19_supplementary_additions.R` | step 12, `R/16`, `R/17` | Tables S14 and S15 |
-| `R/20_redraw_figures.R` | results of `R/10` to `R/16` | every figure except S5, as published |
+| `R/20_redraw_figures.R` | results of `R/10` to `R/16` | every figure except Figure S4, as published |
+| `R/21_core_repeat.R` | step 02, `R/16` | Table S15 (repeat of the core subset searches) |
 
 `R/12_admixture.R` writes the cluster assignment of every accession, including
 those below the ancestry threshold of 0.60, which are labeled admixed. Steps

@@ -19,7 +19,7 @@ load_tools
 cd "$ANA"
 STEPS=("$@")
 if [[ ${#STEPS[@]} -eq 0 ]]; then
-  STEPS=(10_qc_plots 11_pca 12_admixture 13_tree_dapc 14_diversity 15_ld_decay 16_core_collection 17_manuscript_stats 18_fst_intervals 19_supplementary_additions 20_redraw_figures)
+  STEPS=(10_qc_plots 11_pca 12_admixture 13_tree_dapc 14_diversity 15_ld_decay 16_core_collection 17_manuscript_stats 18_fst_intervals 19_supplementary_additions 20_redraw_figures 21_core_repeat)
 fi
 
 for s in "${STEPS[@]}"; do
