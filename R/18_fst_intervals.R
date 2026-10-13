@@ -3,7 +3,7 @@
 ## clusters, on the full non-imputed filtered marker set, then a
 ## delete-one-chromosome jackknife (which respects linkage) and a bootstrap over
 ## loci. The point estimate is the ratio of summed components, the same
-## quantity VCFtools reports as the weighted F_ST in Table S12.
+## quantity VCFtools reports as the weighted F_ST in Table S10.
 source(file.path(Sys.getenv("PROJ"), "analysis/R/00_common.R"))
 suppressPackageStartupMessages({ library(vcfR); library(hierfstat) })
 
@@ -74,5 +74,5 @@ res <- rbindlist(lapply(pairs, function(pr) {
              N_CHROMOSOMES = m, N_BOOTSTRAP = NBOOT)
 }))
 print(res)
-fwrite(res, file.path(TAB, "TableS12_fst_intervals.csv"))
+fwrite(res, file.path(TAB, "TableS10b_fst_intervals.csv"))
 cat("step 18 done\n")

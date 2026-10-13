@@ -1,6 +1,6 @@
 ## Step 19 - LD decay per chromosome and phenotypic coverage of the cores ----------
 ## (a) whole-panel LD decay per chromosome, from slurm/12_ld_by_chromosome.slurm,
-##     with marker density and chromosome length from Table 1 and the correlations
+##     with marker density and chromosome length from Table S4 and the correlations
 ##     of r-squared at 100 kb with both
 ## (b) phenotypic coverage of the two 20 percent cores against GRIN descriptors
 source(file.path(Sys.getenv("PROJ"), "analysis/R/00_common.R"))
@@ -47,7 +47,7 @@ if (length(files)) {
   tab <- fixed_points(bin_curve(ld))
   setnames(tab, "SET", "CHROMOSOME")
   ## marker density and length from the marker summary table
-  t1 <- fread(file.path(TAB, "Table1_marker_summary.csv"))
+  t1 <- fread(file.path(TAB, "TableS4_marker_summary.csv"))
   t1 <- t1[CHRL %in% tab$CHROMOSOME, .(CHROMOSOME = CHRL, LENGTH_MB = round(LEN_Mb, 1),
                                         SNPS = N_SNP, SNPS_PER_MB = round(SNP_per_Mb, 1))]
   tab <- merge(t1, tab, by = "CHROMOSOME")
@@ -56,7 +56,7 @@ if (length(files)) {
   num <- setdiff(names(tab), c("CHROMOSOME", "PAIRS", "SNPS", "LENGTH_MB", "SNPS_PER_MB"))
   tab[, (num) := lapply(.SD, round, 3), .SDcols = num]
   print(tab)
-  fwrite(tab, file.path(TAB, "TableS18_LD_by_chromosome.csv"))
+  fwrite(tab, file.path(TAB, "TableS14_LD_by_chromosome.csv"))
 
   ## is the between-chromosome variation explained by marker density or length?
   ct <- function(x, y, lab) {
@@ -70,7 +70,7 @@ if (length(files)) {
     ct(tab$SNPS_PER_MB, tab$R2_10KB, "r-squared at 10 kb against SNPs per Mb"),
     ct(tab$LENGTH_MB, tab$R2_10KB, "r-squared at 10 kb against chromosome length"))
   print(cors)
-  fwrite(cors, file.path(TAB, "TableS18b_LD_by_chromosome_correlations.csv"))
+  fwrite(cors, file.path(TAB, "TableS14b_LD_by_chromosome_correlations.csv"))
 } else {
   message("no per-chromosome stat files under ", LDC, "; run slurm/12 first")
 }
@@ -170,5 +170,5 @@ print(cov[, .(mean_range_coverage = round(mean(RANGE_COVERAGE, na.rm = TRUE), 3)
               ks_below_0.05 = sum(KS_P < 0.05, na.rm = TRUE),
               mean_category_coverage = round(mean(CATEGORY_COVERAGE, na.rm = TRUE), 3),
               min_category_coverage = round(min(CATEGORY_COVERAGE, na.rm = TRUE), 3)), by = SCHEME])
-fwrite(cov, file.path(TAB, "TableS20_core_phenotype_coverage.csv"))
+fwrite(cov, file.path(TAB, "TableS15b_core_phenotype_coverage.csv"))
 cat("step 19 done\n")

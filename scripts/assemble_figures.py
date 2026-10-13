@@ -18,7 +18,7 @@ MARGIN = 40
 LABEL_PAD = 18
 # Panel letter sizes in pixels, chosen so that the letters print at about
 # 10 pt at the width each figure takes on the page.
-LETTER_PX = {"structure": 120, "pca": 90, "ld": 95, "qc": 100}
+LETTER_PX = {"structure": 120, "pca": 90, "fst": 95, "ld": 95, "qc": 100}
 
 
 def load_font(size):
@@ -113,6 +113,12 @@ def assemble_two_panels(src, out, left_name, right_name, row_height=2000, letter
     return canvas.size
 
 
+def assemble_figure3(src, out):
+    """Pairwise differentiation (a) and genomic inbreeding (b) by cluster."""
+    return assemble_two_panels(src, out, "Fig6_pairwise_fst.png", "Fig7_FROH_by_group.png",
+                               letter_px=LETTER_PX["fst"])
+
+
 def assemble_figure6(src, out):
     """LD decay on a linear axis (a) and on a logarithmic axis (b)."""
     return assemble_two_panels(src, out, "Fig9_ld_decay.png", "Fig9b_ld_decay_log.png",
@@ -150,6 +156,7 @@ def main():
     jobs = [
         ("Figure1_population_structure.png", assemble_figure1),
         ("Figure2_pca_status_and_oil.png", assemble_figure2),
+        ("Figure3_fst_and_froh.png", assemble_figure3),
         ("Figure6_ld_decay_panels.png", assemble_figure6),
         ("FigureS4_quality_panels.png", assemble_qc_panels),
     ]

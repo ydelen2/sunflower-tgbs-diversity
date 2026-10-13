@@ -22,7 +22,7 @@ p1 <- ggplot(agg, aes(K, mean)) +
        y = sprintf("Cross-validation error (mean \u00b1 SD, %d runs)", max(cv$REP))) +
   theme_pub()
 save_fig(p1, "Fig3a_admixture_cv", 6.5, 4)
-fwrite(agg, file.path(TAB, "TableS4_admixture_cv.csv"))
+fwrite(agg, file.path(TAB, "TableS5_admixture_cv.csv"))
 
 ## --- Q matrices ----------------------------------------------------------------
 best <- fread(file.path(AD, "best_rep_per_K.tsv"), header = FALSE,
@@ -97,12 +97,12 @@ if ("3" %in% names(qlist)) {
   cat("\nK=3 versus K=", bestK, " assignment:\n", sep = "")
   print(ct3)
   fwrite(as.data.table(as.data.frame.matrix(ct3), keep.rownames = "K3_GROUP"),
-         file.path(TAB, "TableS9_K3_vs_bestK.csv"))
+         file.path(TAB, "TableS7b_K3_vs_bestK.csv"))
   fwrite(a3[, .(SAMPLE, K3_GROUP, MAXQ3)], file.path(TAB, "Data6_K3_assignment.csv"))
 }
 
 Qout <- as.data.table(Qb)
 setnames(Qout, paste0("Q", seq_len(ncol(Qout))))
-fwrite(cbind(asg, Qout), file.path(TAB, "TableS5_admixture_Q.csv"))
+fwrite(cbind(asg, Qout), file.path(TAB, "TableS6_admixture_Q.csv"))
 print(asg[, .N, by = GROUP][order(-N)])
 cat("step 12 done\n")

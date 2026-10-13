@@ -22,7 +22,7 @@ find_tab <- function(pattern, dir = TAB) {
 ## Base font size of each figure. Figures are reduced by different factors when
 ## they are placed on the page, so the base size is set per figure such that
 ## axis titles print at about 8 pt and tick labels at about 6.5 pt.
-FS <- c(fig1ab = 15, fig1c = 14, fig2 = 13, fig3 = 8.5, fig4 = 8.5, fig5 = 13.5,
+FS <- c(fig1ab = 15, fig1c = 14, fig2 = 13, fig3 = 14.5, fig4 = 11, fig5 = 13.5,
         s1 = 7.5, s2 = 9, s3 = 11, s4 = 15, s6 = 7.5, s7 = 11, s8 = 13.5,
         s9 = 8.5, s10 = 13.5, s11 = 12.5)
 

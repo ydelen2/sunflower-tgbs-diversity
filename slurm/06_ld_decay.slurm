@@ -14,7 +14,7 @@ LD=$OUT/05_ld
 VCF=$OUT/00_vcf/sunflower.filtered.imputed.vcf.gz   # imputed set: every accession
                                                     # contributes to every pair. The non-imputed
                                                     # curve is compared in slurm/11_ld_sensitivity
-                                                    # and Table S23.
+                                                    # and Table S16.
 GRP=$OUT/03_admixture/group_assignment_pops.txt
 cd "$LD"
 

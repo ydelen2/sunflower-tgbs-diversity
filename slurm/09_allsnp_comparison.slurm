@@ -60,7 +60,7 @@ done | { printf 'SET\tMAX_SITE_MISS\tN_SNP\tMAF\tHE\tHO\tFIS\n'; cat; } \
   > "$AC/threshold_comparison.tsv"
 cat "$AC/threshold_comparison.tsv"
 mkdir -p "$OUT/09_tables"
-cp "$AC/threshold_comparison.tsv" "$OUT/09_tables/TableS21_callrate_threshold_comparison.tsv"
+cp "$AC/threshold_comparison.tsv" "$OUT/09_tables/TableS16_callrate_threshold_comparison.tsv"
 
 # ---- 3. LD on the ALL-SNP set ----------------------------------------------
 if command -v PopLDdecay >/dev/null 2>&1; then
@@ -78,8 +78,8 @@ if command -v PopLDdecay >/dev/null 2>&1; then
               for (k=0;k<=4;k++) if (n[k])
                 printf "%s\t%s\t%.4f\t%d\n", L, o[k+1], s[k]/n[k], n[k] }'
     done
-  } > "$OUT/09_tables/TableS22_callrate_LD_comparison.tsv"
-  cat "$OUT/09_tables/TableS22_callrate_LD_comparison.tsv"
+  } > "$OUT/09_tables/TableS16b_callrate_LD_comparison.tsv"
+  cat "$OUT/09_tables/TableS16b_callrate_LD_comparison.tsv"
 fi
 
 echo "DONE 09"

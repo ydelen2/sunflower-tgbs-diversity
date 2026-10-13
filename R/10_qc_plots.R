@@ -80,7 +80,7 @@ p6 <- ggplot(dens, aes(WIN, CHRL, fill = N)) + geom_tile(height = .8) +
   theme(panel.grid = element_blank())
 save_fig(p6, "Fig1_snp_density", 9, 5)
 
-## --- Table 1: marker summary, retained markers only ---------------------------
+## --- Table S4: marker summary, retained markers only ---------------------------
 len <- fread(file.path(ANA, "ref/chr_lengths.txt"), col.names = c("CHROM", "LEN"))
 len[, CHRL := factor(CHR_LAB[as.character(CHROM)], levels = CHR_LAB)]
 
@@ -98,7 +98,7 @@ total <- st[, .(CHRL = "Total", LEN_Mb = sum(len$LEN) / 1e6, N_SNP = .N,
                 He_mean = mean(HE), Ho_mean = mean(HO), PIC_mean = mean(PIC),
                 Missing_mean = mean(MISS))]
 tab1 <- rbind(tab1, total, fill = TRUE)
-fwrite(tab1, file.path(TAB, "Table1_marker_summary.csv"))
+fwrite(tab1, file.path(TAB, "TableS4_marker_summary.csv"))
 print(tab1)
 
 fwrite(ss, file.path(TAB, "Data2_accession_qc.csv"))

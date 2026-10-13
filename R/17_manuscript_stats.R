@@ -86,12 +86,12 @@ print(adj[, .(GROUP, F_ROH_OBSERVED, F_ROH_ADJUSTED)])
 
 out <- rbindlist(res)
 print(out)
-fwrite(out, file.path(TAB, "TableS10_manuscript_statistics.csv"))
+fwrite(out, file.path(TAB, "TableS9_manuscript_statistics.csv"))
 fwrite(adj[, .(GROUP, F_ROH_OBSERVED, F_ROH_ADJUSTED)],
-       file.path(TAB, "TableS17_FROH_adjusted_means.csv"))
+       file.path(TAB, "TableS13_FROH_adjusted_means.csv"))
 
 ## sensitivity of the assignment to the ancestry threshold
-qm <- fread(file.path(TAB, "TableS5_admixture_Q.csv"), colClasses = "character")
+qm <- fread(file.path(TAB, "TableS6_admixture_Q.csv"), colClasses = "character")
 qm[, MAXQ := num(MAXQ)]
 qm <- merge(qm, roh[, .(SAMPLE, HETEROTIC_GROUP)], by = "SAMPLE", all.x = TRUE)
 thr <- rbindlist(lapply(c(0.50, 0.60, 0.70, 0.80, 0.90), function(t) {
@@ -106,7 +106,7 @@ thr <- rbindlist(lapply(c(0.50, 0.60, 0.70, 0.80, 0.90), function(t) {
              Q5_RESTORER   = sum(g == "Q5" & qm$HETEROTIC_GROUP == "R", na.rm = TRUE))
 }))
 print(thr)
-fwrite(thr, file.path(TAB, "TableS6_assignment_threshold.csv"))
+fwrite(thr, file.path(TAB, "TableS5b_assignment_threshold.csv"))
 
 ## effect of imputation on the ordination
 PC <- file.path(OUT, "02_pca")
@@ -124,7 +124,7 @@ if (file.exists(f_imp) && file.exists(f_non)) {
 }
 
 ## accession list: passport data, descriptors and assignments in one table
-qm2 <- fread(file.path(TAB, "TableS5_admixture_Q.csv"), colClasses = "character")
+qm2 <- fread(file.path(TAB, "TableS6_admixture_Q.csv"), colClasses = "character")
 dap <- fread(file.path(TAB, "Data3_dapc_coordinates.csv"), colClasses = "character")
 k3  <- fread(file.path(TAB, "Data6_K3_assignment.csv"), colClasses = "character")
 acc <- pcs[, .(SAMPLE, ACCESSION, NAME, COUNTRY, REGION, STATUS, ORIGIN_EVENT,

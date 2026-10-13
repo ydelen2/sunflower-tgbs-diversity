@@ -73,7 +73,7 @@ run_set all       '.'
 run_set collected 'Collected'
 
 mkdir -p "$OUT/09_tables"
-cp pairwise_fst_all.tsv       "$OUT/09_tables/TableS14_region_fst.tsv"
-cp pairwise_fst_collected.tsv "$OUT/09_tables/TableS14b_region_fst_collected.tsv"
+cp pairwise_fst_all.tsv       "$OUT/09_tables/TableS11_region_fst.tsv"
+cp pairwise_fst_collected.tsv "$OUT/09_tables/TableS11b_region_fst_collected.tsv"
 
 echo "DONE 10"

@@ -82,7 +82,7 @@ res_s <- rbindlist(lapply(fractions, function(fr) {
 res_s[, METHOD := "stratified"]
 res[, METHOD := "Core Hunter, whole panel"]
 tab7 <- rbind(res, res_s, fill = TRUE)[order(METHOD, FRACTION)]
-fwrite(tab7, file.path(TAB, "Table4_core_collection.csv"))
+fwrite(tab7, file.path(TAB, "Table3_core_collection.csv"))
 print(tab7)
 
 ## cluster representation of both 20% cores
@@ -97,7 +97,7 @@ rep_tab <- function(sel, label) {
 cov <- rbind(rep_tab(readLines(file.path(CR, "core_20.txt")), "Core Hunter, whole panel"),
              rep_tab(readLines(file.path(CR, "core_stratified_20.txt")), "stratified"))
 print(dcast(cov, GROUP + N_total ~ METHOD, value.var = "PCT"))
-fwrite(cov, file.path(TAB, "TableS19_core_cluster_representation.csv"))
+fwrite(cov, file.path(TAB, "TableS15_core_cluster_representation.csv"))
 
 p <- ggplot(tab7[FRACTION < 1], aes(100 * FRACTION, SHANNON, colour = METHOD)) +
   geom_line() + geom_point(size = 2.4) +

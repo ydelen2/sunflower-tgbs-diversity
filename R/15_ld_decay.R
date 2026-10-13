@@ -123,7 +123,7 @@ setnames(tab6_out,
            "DIST_R2_0.10_KB"))
 num <- setdiff(names(tab6_out), "SET")
 tab6_out[, (num) := lapply(.SD, round, 3), .SDcols = num]
-fwrite(tab6_out, file.path(TAB, "Table3_LD_decay.csv"))
+fwrite(tab6_out, file.path(TAB, "Table2_LD_decay.csv"))
 
 ## ---------------------------------------------------------------------------
 ## Sensitivity of the whole-panel curve to imputation and to the heterozygosity
@@ -155,7 +155,7 @@ if (length(sfiles)) {
   setcolorder(sens, c("SET", "DISTANCE_KB", "R2", "R2_REFERENCE", "DIFFERENCE", "RATIO"))
   setorder(sens, SET, DISTANCE_KB)
   print(sens)
-  fwrite(sens, file.path(TAB, "TableS23_LD_sensitivity.csv"))
+  fwrite(sens, file.path(TAB, "TableS16c_LD_sensitivity.csv"))
 }
 
 ## ---------------------------------------------------------------------------

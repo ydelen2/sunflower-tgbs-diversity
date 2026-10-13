@@ -81,7 +81,7 @@ if (!is.null(meta)) {
   print(summary(aov(OIL ~ factor(GROUP), data = m2[!is.na(OIL)])))
 }
 
-fwrite(div, file.path(TAB, "Table2_cluster_diversity_and_identity.csv"))
+fwrite(div, file.path(TAB, "Table1_cluster_diversity_and_identity.csv"))
 print(div)
 
 ## whole-collection row
@@ -179,16 +179,16 @@ if ("REGION" %in% strat_cols && nlevels(st$REGION) > 1) {
 } else am2 <- NULL
 fwrite(rbind(amova_tidy(amres, amsig, "Ancestry clusters"),
              if (!is.null(am2)) amova_tidy(am2, NULL, "Region / clusters")),
-       file.path(TAB, "TableS13_AMOVA.csv"))
+       file.path(TAB, "TableS10c_AMOVA.csv"))
 
 ## hierfstat basic stats on the same subset
 hf <- genind2hierfstat(gid, pop = factor(pops[match(indNames(gid), SAMPLE), GROUP]))
 bstat <- basic.stats(hf)
 print(bstat$overall)
 fwrite(as.data.table(as.list(bstat$overall)),
-       file.path(TAB, "TableS11_hierfstat_overall.csv"))
+       file.path(TAB, "TableS10_hierfstat_overall.csv"))
 
-## Pairwise F_ST is taken from vcftools on the full marker set (Table S12).
+## Pairwise F_ST is taken from vcftools on the full marker set (Table S10).
 ## hierfstat::pairwise.WCfst on the AMOVA subset would repeat the same
 ## statistic with fewer markers at a large time cost, so it is not run here.
 
@@ -276,7 +276,7 @@ if (!is.null(meta) && "HETEROTIC_GROUP" %in% names(meta)) {
                  PERCENT = NA_real_, STATISTIC = round(wc_rb[1, 2], 5),
                  P_VALUE = NA_real_),
       amova_tidy(am_rb, rb_sig, "Restorer versus maintainer")),
-      file.path(TAB, "TableS16_restorer_vs_maintainer.csv"))
+      file.path(TAB, "TableS12_restorer_vs_maintainer.csv"))
   } else {
     cat("too few labelled lines for the R versus B contrast\n")
   }
@@ -308,7 +308,7 @@ if (!is.null(meta) && all(c("REGION", "ORIGIN_EVENT") %in% names(meta))) {
                                as.data.table(as.list(round(bs_e, 4))))
   }
   if (length(ev_rows))
-    fwrite(rbindlist(ev_rows), file.path(TAB, "TableS15_origin_event_stats.csv"))
+    fwrite(rbindlist(ev_rows), file.path(TAB, "TableS11c_origin_event_stats.csv"))
 }
 
 ## Tajima's D is not computed here. The provider filtered both delivered SNP

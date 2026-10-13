@@ -18,8 +18,8 @@ the HanXRQr2.0-SUNRISE assembly (GenBank GCF_002127325.2).
 | `ref/` | chromosome names and lengths of the reference assembly |
 | `metadata/` | GRIN passport, descriptor and type records, sample lists, per-accession quality summary |
 | `data/` | nine large per-accession or per-window result files |
-| `tables/main/` | the four main tables of the manuscript |
-| `tables/supplementary/` | the 23 supplementary tables; Tables S14 and S18 each have a second block, in the files ending in `b` |
+| `tables/main/` | the three main tables of the manuscript |
+| `tables/supplementary/` | the 16 supplementary tables; Tables S5, S7, S10, S11, S14, S15 and S16 hold further blocks, in the files ending in `b` or `c` |
 | `tables/additional/` | replicate concordance, duplicate pairs and the imputation check of the principal components, whose values are given in the text |
 
 ## Input not included here
@@ -75,16 +75,16 @@ cd $PROJ/analysis && bash run_all.sh
 | script | reads | writes |
 |---|---|---|
 | `R/01_build_metadata.R` | GRIN records | `metadata/sample_metadata.csv` |
-| `R/10_qc_plots.R` | steps 01, 02 | Table 1, Table S3, Data file 2, replicate concordance |
+| `R/10_qc_plots.R` | steps 01, 02 | Table S4, Table S3, Data file 2, replicate concordance |
 | `R/11_pca.R` | steps 02, 03 | Table S8, Data file 4 |
-| `R/12_admixture.R` | step 04b | Tables S4, S5 and S9, Data file 6, cluster assignment |
+| `R/12_admixture.R` | step 04b | Tables S5, S6 and S7, Data file 6, cluster assignment |
 | `R/13_tree_dapc.R` | step 02, `R/12` | Tables S2 and S7, Data file 3 |
-| `R/14_diversity.R` | steps 05, 07 | Table 2, Tables S11, S13, S15 and S16, Data files 7 and 8, pairwise F_ST used by `R/18` |
-| `R/15_ld_decay.R` | steps 06, 11 | Table 3, Table S23, Data file 9 |
-| `R/16_core_collection.R` | step 02, `R/12` | Table 4, Table S19, Data file 1 |
-| `R/17_manuscript_stats.R` | steps 03, `R/11` to `R/14` | Tables S1, S6, S10 and S17, imputation check of the principal components |
-| `R/18_fst_intervals.R` | step 02, `R/12`, `R/14` | Table S12 |
-| `R/19_supplementary_additions.R` | step 12, `R/16`, `R/17` | Tables S18 and S20 |
+| `R/14_diversity.R` | steps 05, 07 | Table 1, Tables S10, S11 and S12, Data files 7 and 8, pairwise F_ST used by `R/18` |
+| `R/15_ld_decay.R` | steps 06, 11 | Table 2, Table S16, Data file 9 |
+| `R/16_core_collection.R` | step 02, `R/12` | Table 3, Table S15, Data file 1 |
+| `R/17_manuscript_stats.R` | steps 03, `R/11` to `R/14` | Tables S1, S5, S9 and S13, imputation check of the principal components |
+| `R/18_fst_intervals.R` | step 02, `R/12`, `R/14` | Table S10 |
+| `R/19_supplementary_additions.R` | step 12, `R/16`, `R/17` | Tables S14 and S15 |
 | `R/20_redraw_figures.R` | results of `R/10` to `R/16` | every figure except S5, as published |
 
 `R/12_admixture.R` writes the cluster assignment of every accession, including
