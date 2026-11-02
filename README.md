@@ -11,15 +11,15 @@ the HanXRQr2.0-SUNRISE assembly (GenBank GCF_002127325.2).
 |---|---|
 | `config.sh` | paths, filtering thresholds and the ADMIXTURE grid; every script sources it |
 | `run_all.sh` | submits the cluster steps in dependency order |
-| `slurm/` | batch steps 01 to 12 |
-| `R/` | analysis and figure steps 00 to 20 |
-| `scripts/` | genotype conversion, per-accession statistics, GRIN retrieval, multi-panel figure assembly |
+| `slurm/` | batch steps 01 to 14 |
+| `R/` | analysis and figure steps 00 to 24 |
+| `scripts/` | genotype conversion, per-accession statistics, GRIN retrieval, multi-panel figure assembly, replicate library discordance |
 | `env/environment.yml` | conda environment |
 | `ref/` | chromosome names and lengths of the reference assembly |
 | `metadata/` | GRIN passport, descriptor and type records, sample lists, per-accession quality summary |
 | `data/` | nine large per-accession or per-window result files |
 | `tables/main/` | the three main tables of the manuscript |
-| `tables/supplementary/` | the 16 supplementary tables; Tables S5, S7, S10, S11, S14, S15 and S16 hold further blocks, in the files ending in `b` or `c` |
+| `tables/supplementary/` | the 16 supplementary tables; Tables S3, S5, S6, S7, S10, S11, S13, S14, S15 and S16 hold further blocks, in the files ending in `b` to `f` |
 | `tables/additional/` | replicate concordance, duplicate pairs and the imputation check of the principal components, whose values are given in the text |
 
 ## Input not included here
@@ -69,6 +69,8 @@ cd $PROJ/analysis && bash run_all.sh
 | 10 | `slurm/10_region_fst.slurm` | pairwise F_ST among geographic regions |
 | 11 | `slurm/11_ld_sensitivity.slurm` | linkage disequilibrium without imputation and under a stricter heterozygosity filter |
 | 12 | `slurm/12_ld_by_chromosome.slurm` | linkage disequilibrium decay per chromosome |
+| 13 | `slurm/13_review_checks.slurm` | checks added at peer review: relatedness pruning, non-imputed runs of homozygosity, identity-by-state distances, KING on the 276 libraries, linkage disequilibrium in ten random subsets of 23 accessions, ADMIXTURE without close relatives, replicate discordance, core benchmark; then `R/22` to `R/24` |
+| 14 | `slurm/14_review_extra.slurm` | unfiltered calls of the retained accessions for the removed-site check; reruns `R/24` and `R/20` |
 
 ## Order of the R steps
 
@@ -85,8 +87,15 @@ cd $PROJ/analysis && bash run_all.sh
 | `R/17_manuscript_stats.R` | steps 03, `R/11` to `R/14` | Tables S1, S5, S9 and S13, imputation check of the principal components |
 | `R/18_fst_intervals.R` | step 02, `R/12`, `R/14` | Table S10 |
 | `R/19_supplementary_additions.R` | step 12, `R/16`, `R/17` | Tables S14 and S15 |
-| `R/20_redraw_figures.R` | results of `R/10` to `R/16` | every figure except Figure S4, as published |
+| `R/20_redraw_figures.R` | results of `R/10` to `R/16`, `R/24` | every figure except Figure S4, as published, including panel (c) of Figure 4 |
 | `R/21_core_repeat.R` | step 02, `R/16` | Table S15 (repeat of the core subset searches) |
+| `R/22_core_benchmark.R` | step 02, `R/16` | Table S15d (the two cores against 100 random and 100 proportional stratified random subsets) |
+| `R/23_review_prepare.R` | step 02 | Table S6b (relatedness within and between clusters) and the list of close relatives removed in step 13 |
+| `R/24_review_round1.R` | steps 02 to 07, 13 and 14, `R/12`, `R/16` | the tables added at peer review: Table 1 (unified diversity indices, receipt years), Table 2 (random subsets), Tables S1, S9, S10b, S15b (extended), S3b to S3e, S5c, S6c, S7c, S10d to S10f, S11d, S13b to S13e, S14c, S16d |
+
+`scripts/replicate_discordance.py` compares the three libraries of the control
+accession on the delivered allele counts and writes Tables S3b and S3c; step 13
+calls it.
 
 `R/12_admixture.R` writes the cluster assignment of every accession, including
 those below the ancestry threshold of 0.60, which are labeled admixed. Steps

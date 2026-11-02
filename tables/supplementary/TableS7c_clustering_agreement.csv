@@ -1,0 +1,7 @@
+COMPARISON,N,ARI
+"ADMIXTURE cluster of highest ancestry against DAPC group, all accessions",274,0.823
+"ADMIXTURE assignment (q >= 0.60) against DAPC group, assigned accessions",184,1
+"ADMIXTURE assignment with admixed as a sixth label against DAPC group, all accessions",274,0.4979
+"K = 4 against K = 5, clusters of highest ancestry, all accessions",274,0.5278
+"K = 6 against K = 5, clusters of highest ancestry, all accessions",274,0.6072
+"ADMIXTURE K = 5 without close relatives against the reported run, assignment (mean of three seeds)",233,0.4314

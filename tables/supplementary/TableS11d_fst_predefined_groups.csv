@@ -1,0 +1,65 @@
+SET,GROUP1,GROUP2,N1,N2,N_SITES,FST,DXY,NEI_D
+"regions, all accessions",Asia / Oceania,Eastern Europe / W Asia,19,96,233256,0.02474,0.29379,0.02163
+"regions, all accessions",Asia / Oceania,North America,19,83,233256,0.06343,0.29115,0.03628
+"regions, all accessions",Asia / Oceania,South America,19,16,233241,0.03249,0.29275,0.03423
+"regions, all accessions",Asia / Oceania,Western Europe,19,55,233256,0.02832,0.29152,0.02456
+"regions, all accessions",Eastern Europe / W Asia,North America,96,83,233264,0.02251,0.27293,0.01238
+"regions, all accessions",Eastern Europe / W Asia,South America,96,16,233249,0.02719,0.2844,0.02397
+"regions, all accessions",Eastern Europe / W Asia,Western Europe,96,55,233264,0.00228,0.27729,0.00615
+"regions, all accessions",North America,South America,83,16,233249,0.05304,0.27784,0.03324
+"regions, all accessions",North America,Western Europe,83,55,233264,0.02042,0.26887,0.01295
+"regions, all accessions",South America,Western Europe,16,55,233249,0.02474,0.28028,0.02437
+"regions, assigned accessions",Asia / Oceania,Eastern Europe / W Asia,14,76,233225,0.02522,0.29498,0.02543
+"regions, assigned accessions",Asia / Oceania,North America,14,50,233225,0.06772,0.29139,0.0422
+"regions, assigned accessions",Asia / Oceania,Western Europe,14,34,233225,0.03569,0.29074,0.03114
+"regions, assigned accessions",Eastern Europe / W Asia,North America,76,50,233264,0.0284,0.27489,0.0165
+"regions, assigned accessions",Eastern Europe / W Asia,Western Europe,76,34,233264,0.005,0.27686,0.00909
+"regions, assigned accessions",North America,Western Europe,50,34,233264,0.02906,0.26799,0.01874
+"regions, admixed accessions",Eastern Europe / W Asia,North America,20,33,233264,0.01622,0.2645,0.02182
+"regions, admixed accessions",Eastern Europe / W Asia,Western Europe,20,21,233264,0.008,0.2765,0.0253
+"regions, admixed accessions",North America,Western Europe,33,21,233264,0.02612,0.27258,0.027
+"regions, collected material (at least five accessions)",Asia / Oceania,Eastern Europe / W Asia,6,68,228830,0.03185,0.30088,0.04499
+"regions, collected material (at least five accessions)",Asia / Oceania,North America,6,6,217380,0.12849,0.31666,0.11264
+"regions, collected material (at least five accessions)",Asia / Oceania,Western Europe,6,16,228830,0.02695,0.30106,0.05174
+"regions, collected material (at least five accessions)",Eastern Europe / W Asia,North America,68,6,221259,0.14856,0.3134,0.09902
+"regions, collected material (at least five accessions)",Eastern Europe / W Asia,Western Europe,68,16,233264,-0.00104,0.28066,0.01375
+"regions, collected material (at least five accessions)",North America,Western Europe,6,16,221259,0.14822,0.31363,0.1058
+regions within cultivars,Asia / Oceania,Eastern Europe / W Asia,15,85,233211,0.02992,0.2946,0.0266
+regions within cultivars,Asia / Oceania,North America,15,10,233154,0.04224,0.29447,0.04691
+regions within cultivars,Asia / Oceania,South America,15,16,233196,0.03797,0.29496,0.03905
+regions within cultivars,Asia / Oceania,Western Europe,15,38,233211,0.0273,0.29369,0.02868
+regions within cultivars,Eastern Europe / W Asia,North America,85,10,233207,0.0032,0.27382,0.02
+regions within cultivars,Eastern Europe / W Asia,South America,85,16,233249,0.02841,0.28316,0.02437
+regions within cultivars,Eastern Europe / W Asia,Western Europe,85,38,233264,0.00172,0.27735,0.00773
+regions within cultivars,North America,South America,10,16,233192,0.03237,0.27977,0.04017
+regions within cultivars,North America,Western Europe,10,38,233207,0.00476,0.27417,0.02386
+regions within cultivars,South America,Western Europe,16,38,233249,0.02345,0.28143,0.02533
+regions within breeding lines,North America,Western Europe,68,15,233263,0.0178,0.25455,0.02
+regions within cluster Q1,Asia / Oceania,Eastern Europe / W Asia,12,18,233182,0.01658,0.29224,0.02925
+regions within cluster Q3,Eastern Europe / W Asia,North America,40,10,232986,0.00648,0.23915,0.02019
+regions within cluster Q3,Eastern Europe / W Asia,Western Europe,40,22,233264,0.00518,0.24581,0.01187
+regions within cluster Q3,North America,Western Europe,10,22,232986,0.01404,0.24588,0.02552
+"improvement status, all accessions",Breeding line,Cultivar,89,169,233264,0.02563,0.27096,0.01247
+"improvement status, all accessions",Breeding line,Landrace,89,16,233254,0.0962,0.30165,0.05087
+"improvement status, all accessions",Cultivar,Landrace,169,16,233254,0.04402,0.30465,0.03097
+"heterotic group, labeled accessions","",maintainer,225,19,233247,0.05121,0.26158,0.02958
+"heterotic group, labeled accessions","",restorer,225,30,233264,0.04395,0.2745,0.02399
+"heterotic group, labeled accessions",maintainer,restorer,19,30,233247,0.06893,0.24388,0.03663
+"market type, labeled accessions","",confection,253,7,230824,0.05703,0.28485,0.04842
+"market type, labeled accessions","",oilseed,253,14,233240,0.02813,0.26846,0.02408
+"market type, labeled accessions",confection,oilseed,7,14,230801,0.11834,0.28293,0.0794
+"ancestry clusters, assigned accessions",Q1,Q2,52,23,232678,0.18038,0.28101,0.08185
+"ancestry clusters, assigned accessions",Q1,Q3,52,74,233264,0.06105,0.28248,0.02801
+"ancestry clusters, assigned accessions",Q1,Q4,52,24,233257,0.07681,0.31899,0.04583
+"ancestry clusters, assigned accessions",Q1,Q5,52,11,231605,0.13061,0.29564,0.07276
+"ancestry clusters, assigned accessions",Q2,Q3,23,74,232678,0.13457,0.23819,0.05249
+"ancestry clusters, assigned accessions",Q2,Q4,23,24,232671,0.23518,0.30533,0.11037
+"ancestry clusters, assigned accessions",Q2,Q5,23,11,231046,0.24188,0.24592,0.08864
+"ancestry clusters, assigned accessions",Q3,Q4,74,24,233257,0.1374,0.31347,0.06622
+"ancestry clusters, assigned accessions",Q3,Q5,74,11,231605,0.14761,0.27318,0.06974
+"ancestry clusters, assigned accessions",Q4,Q5,24,11,231598,0.17581,0.32102,0.10368
+ancestry cluster against the admixed accessions,Q1,admixed,52,90,233264,0.02831,0.28747,0.01678
+ancestry cluster against the admixed accessions,Q2,admixed,23,90,232678,0.10539,0.24727,0.04633
+ancestry cluster against the admixed accessions,Q3,admixed,74,90,233264,0.01943,0.2627,0.01109
+ancestry cluster against the admixed accessions,Q4,admixed,24,90,233257,0.08725,0.3136,0.04822
+ancestry cluster against the admixed accessions,Q5,admixed,11,90,231605,0.08131,0.27073,0.04819

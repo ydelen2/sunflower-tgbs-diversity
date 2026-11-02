@@ -1,0 +1,9 @@
+STATISTIC,VALUE
+F_ST Q2-Q5,0.24188
+F_ST Q2-Q4,0.23518
+difference,0.00671
+jackknife SE of the difference (17 chromosomes),0.02378
+z of the difference,0.28207
+chromosomes where Q2-Q5 exceeds Q2-Q4,7
+"bootstrap over loci, 2.5th percentile",0.00492
+"bootstrap over loci, 97.5th percentile",0.00847

@@ -1,0 +1,7 @@
+GROUP,N,MISS_RATE,F_ROH,SUBSET,N_SUBSET,ANOVA_F,ANOVA_P,F_ROH_ALL_ACCESSIONS
+Q2,6,0.119,0.6023,missing rate <= 0.302 (panel median),137,16.5996,0,0.71
+Q5,8,0.1997,0.5201,missing rate <= 0.302 (panel median),137,16.5996,0,0.5449
+admixed,31,0.2044,0.472,missing rate <= 0.302 (panel median),137,16.5996,0,0.5279
+Q3,39,0.1897,0.442,missing rate <= 0.302 (panel median),137,16.5996,0,0.4841
+Q1,37,0.1987,0.3044,missing rate <= 0.302 (panel median),137,16.5996,0,0.3471
+Q4,16,0.2103,0.3043,missing rate <= 0.302 (panel median),137,16.5996,0,0.3388

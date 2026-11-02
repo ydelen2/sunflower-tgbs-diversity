@@ -1,275 +1,275 @@
-SAMPLE,ACCESSION,NAME,COUNTRY,REGION,STATUS,ORIGIN_EVENT,MARKET_TYPE,HETEROTIC_GROUP,OIL_PCT,YEAR,CLUSTER,MAX_ANCESTRY,DAPC_GROUP,K3_GROUP,CALL_RATE,MISS_RATE,HO,F_ROH
-PI_162675,PI 162675,KLEIN,Argentina,South America,Cultivar,Collected,"","",29,1948,Q1,0.761494,2,admixed,0.7762,0.2238,0.2987,0.2579
-PI_162784,PI 162784,No. 167,Argentina,South America,Cultivar,Collected,"","",29,1948,Q1,0.725286,2,G3,0.8491,0.1509,0.3264,0.1829
-PI_170394,PI 170394,No. 2309,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",32,1948,Q1,0.847802,2,admixed,0.7258,0.2742,0.2981,0.2664
-PI_170418,PI 170418,No. 3241,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",26,1948,Q1,0.868371,2,admixed,0.7803,0.2197,0.3243,0.1959
-PI_170426,PI 170426,No. 3447,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",30,1948,Q1,0.739949,2,admixed,0.8533,0.1467,0.3144,0.2054
-PI_170431,PI 170431,No. 4030,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",26,1948,Q1,0.776975,2,admixed,0.4932,0.5068,0.2936,0.3694
-PI_171655,PI 171655,AYCICEGI,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",30,1948,Q1,0.725924,2,admixed,0.7205,0.2795,0.2941,0.2651
-PI_175723,PI 175723,GONONDU,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",27,1949,Q1,0.74382,2,admixed,0.7394,0.2606,0.3205,0.2237
-PI_175724,PI 175724,No. 5473,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",29,1949,Q1,0.747033,2,admixed,0.8548,0.1452,0.3438,0.1627
-PI_175727,PI 175727,ALACA,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",30,1949,Q1,0.846334,2,admixed,0.7841,0.2159,0.3281,0.1961
-PI_176973,PI 176973,No. 5884,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",27,1949,Q1,0.764098,2,admixed,0.735,0.265,0.2969,0.2653
-PI_192943,PI 192943,"",China,Asia / Oceania,Cultivar,Donated,"","",27,1950,Q1,0.695181,2,admixed,0.7617,0.2383,0.2806,0.2735
-PI_251464,PI 251464,No. K1899,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",27,1958,Q1,0.773652,2,admixed,0.7158,0.2842,0.315,0.2294
-PI_251901,PI 251901,JDANOVSKY6432 ND 31%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",29,1958,Q1,0.803112,2,admixed,0.8381,0.1619,0.3174,0.2008
-PI_257640,PI 257640,CHERNYANKA 11 MN-39%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",32,1959,Q1,0.770537,2,G2,0.5428,0.4572,0.2796,0.3821
-PI_257641,PI 257641,STEPNYAK MN-34% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1959,Q1,0.795019,2,G2,0.8957,0.1043,0.3004,0.2259
-PI_267665,PI 267665,LODGING RESISTANCE,Uruguay,South America,Cultivar,Donated,"","",28,1960,Q1,0.69656,2,admixed,0.579,0.421,0.2692,0.3571
-PI_289623,PI 289623,No. 2,France,Western Europe,Cultivar,Collected,"","",26,1963,Q1,0.961819,2,admixed,0.8845,0.1155,0.3217,0.196
-PI_289626,PI 289626,No. 5,France,Western Europe,Cultivar,Collected,"","",26,1963,Q1,0.761555,2,G2,0.4619,0.5381,0.2738,0.4413
-PI_291402,PI 291402,IREGI KORAI CSIKOS,Hungary,Eastern Europe / W Asia,Cultivar,Donated,"","",27,1963,Q1,0.891284,2,G2,0.7198,0.2802,0.2857,0.299
-PI_296287,PI 296287,ELLA 37% OIL-MN,South Africa,Africa,Cultivar,Donated,"","",32,1964,Q1,0.818558,2,admixed,0.7504,0.2496,0.2963,0.2714
-PI_371934,PI 371934,TCHERNIANKA 66,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",34,1972,Q1,0.917543,2,admixed,0.8545,0.1455,0.2223,0.3694
-PI_378894,PI 378894,GUAYACAN INTA,Argentina,South America,Cultivar,Donated,"","",30,1973,Q1,0.788819,2,admixed,0.7395,0.2605,0.2886,0.2742
-PI_386239,PI 386239,KARLIK,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1974,Q1,0.667034,2,G2,0.6636,0.3364,0.2596,0.3604
-PI_406645,PI 406645,POLESTAR,Australia,Asia / Oceania,Cultivar,Donated,"","",28,1976,Q1,0.863774,2,G2,0.6748,0.3252,0.2961,0.292
-PI_490281,PI 490281,Ames 101,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",26,1960,Q1,0.778584,2,G2,0.6314,0.3686,0.1782,0.5723
-PI_490282,PI 490282,Ames 102,Jordan,Asia / Oceania,Cultivar,Developed,"","",26,1980,Q1,0.766229,2,G2,0.6169,0.3831,0.1808,0.5645
-PI_496264,PI 496264,Dong Feng,China,Asia / Oceania,Landrace,Donated,"","",26,1985,Q1,0.634104,2,admixed,0.621,0.379,0.1802,0.5503
-PI_496265,PI 496265,Liao 2,China,Asia / Oceania,Landrace,Donated,"","",24,1985,Q1,0.755868,2,admixed,0.8282,0.1718,0.1997,0.4307
-PI_496266,PI 496266,Xin Jiang 2,China,Asia / Oceania,Landrace,Donated,"","",38,1985,Q1,0.643707,2,G2,0.8782,0.1218,0.2594,0.3061
-PI_497931,PI 497931,"",Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1985,Q1,0.722107,2,admixed,0.7871,0.2129,0.1989,0.4443
-PI_518651,PI 518651,CM 593,Canada,North America,Breeding line,Donated,confection,"",,1988,Q1,0.681243,2,G2,0.7368,0.2632,0.3206,0.2172
-PI_531350,PI 531350,"",France,Western Europe,Cultivar,Collected,"","",28,1989,Q1,0.673497,2,G2,0.8739,0.1261,0.2583,0.3084
-PI_599764,PI 599764,RHA 294,United States,North America,Breeding line,Developed,confection,restorer,33,1985,Q1,0.71664,2,admixed,0.7781,0.2219,0.1972,0.4495
-PI_650365,PI 650365,"",Germany,Western Europe,Cultivar,Donated,"","",26,1985,Q1,0.928633,2,admixed,0.8345,0.1655,0.2835,0.267
-PI_650369,PI 650369,"",Germany,Western Europe,Cultivar,Donated,"","",20,1985,Q1,0.925413,2,admixed,0.7856,0.2144,0.1668,0.533
-PI_650372,PI 650372,"",Germany,Western Europe,Cultivar,Donated,"","",23,1985,Q1,0.956817,2,G2,0.8343,0.1657,0.1775,0.4848
-PI_650409,PI 650409,"",Germany,Western Europe,Cultivar,Donated,"","",32,1985,Q1,0.852741,2,G2,0.5789,0.4211,0.1851,0.5801
-PI_650438,PI 650438,"",Germany,Western Europe,Cultivar,Donated,"","",28,1985,Q1,0.94368,2,admixed,0.8879,0.1121,0.1714,0.4988
-PI_650537,PI 650537,813139,Argentina,South America,Cultivar,Developed,"","",33,1985,Q1,0.607746,2,admixed,0.714,0.286,0.171,0.5475
-PI_650656,PI 650656,Ames 10100,China,Asia / Oceania,Cultivar,Developed,"","",28,1989,Q1,0.626552,2,admixed,0.6604,0.3396,0.2846,0.3049
-PI_650657,PI 650657,Ames 10101,China,Asia / Oceania,Cultivar,Developed,"","",28,1989,Q1,0.703805,2,admixed,0.6877,0.3123,0.2385,0.4065
-PI_650660,PI 650660,Ames 10104,China,Asia / Oceania,Cultivar,Developed,"","",31,1989,Q1,0.635488,2,admixed,0.8329,0.1671,0.2683,0.2871
-PI_650662,PI 650662,Ames 10106,China,Asia / Oceania,Cultivar,Developed,"","",30,1989,Q1,0.824758,2,admixed,0.7363,0.2637,0.2414,0.361
-PI_650791,PI 650791,Ames 22281,China,Asia / Oceania,Cultivar,Collected,"","",31,1995,Q1,0.608175,2,admixed,0.8035,0.1965,0.3237,0.1928
-PI_650793,PI 650793,Ames 22283,China,Asia / Oceania,Cultivar,Collected,"","",35,1995,Q1,0.69936,2,admixed,0.7651,0.2349,0.2881,0.2549
-PI_650796,PI 650796,"",Argentina,South America,Cultivar,Donated,"","",32,1995,Q1,0.706133,2,admixed,0.6899,0.3101,0.195,0.4741
-PI_664168,PI 664168,HA GERMPLASM POOL I,United States,North America,Breeding line,Developed,"","",36,1982,Q1,0.776598,2,admixed,0.8378,0.1622,0.3122,0.1961
-PI_664191,PI 664191,ND-NONOIL 3,United States,North America,Breeding line,Developed,confection,"",25,1986,Q1,0.930364,2,G2,0.9044,0.0956,0.1822,0.4469
-PI_664195,PI 664195,ND-NONOIL B4,United States,North America,Breeding line,Developed,confection,"",,1986,Q1,0.703077,2,admixed,0.6196,0.3804,0.1727,0.5842
-PI_664196,PI 664196,ND-NONOIL B5,United States,North America,Breeding line,Developed,confection,"",,1986,Q1,0.914791,2,G2,0.8527,0.1473,0.178,0.4742
-PI_664197,PI 664197,ND-NONOIL M1,United States,North America,Breeding line,Developed,confection,"",,1986,Q1,0.662396,2,admixed,0.6717,0.3283,0.1797,0.5478
-PI_517952,PI 517952,CM 604,Canada,North America,Breeding line,Donated,"","",,1988,Q2,0.935766,4,G1,0.2869,0.7131,0.1335,0.8526
-PI_518773,PI 518773,HA 335,United States,North America,Breeding line,Developed,"",maintainer,,1988,Q2,0.864596,4,G1,0.8641,0.1359,0.1291,0.6387
-PI_518775,PI 518775,HA 337,United States,North America,Breeding line,Developed,"",maintainer,,1988,Q2,0.99996,4,G1,0.2678,0.7322,0.1018,0.9046
-PI_518777,PI 518777,HA 339,United States,North America,Breeding line,Developed,"",maintainer,,1988,Q2,0.99996,4,G1,0.2904,0.7096,0.1176,0.8491
-PI_531338,PI 531338,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",44,1989,Q2,0.668505,4,G1,0.6172,0.3828,0.1936,0.5403
-PI_531342,PI 531342,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",44,1989,Q2,0.795553,4,G1,0.42,0.58,0.1731,0.6977
-PI_531343,PI 531343,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",41,1989,Q2,0.766187,4,G1,0.3644,0.6356,0.194,0.6744
-PI_539882,PI 539882,PET-PET-1741-1,United States,North America,Breeding line,Developed,"","",,1990,Q2,0.999952,4,G1,0.6934,0.3066,0.1164,0.7208
-PI_539899,PI 539899,PAR-1673-1,United States,North America,Breeding line,Developed,"","",,1990,Q2,0.909728,4,G1,0.4254,0.5746,0.1344,0.793
-PI_539900,PI 539900,PAR-1673-2,United States,North America,Breeding line,Developed,"","",,1990,Q2,0.962071,4,G1,0.6638,0.3362,0.1194,0.7158
-PI_539901,PI 539901,PAR-1084-1,United States,North America,Breeding line,Developed,"","",,1990,Q2,0.940235,4,G1,0.6302,0.3698,0.1294,0.7205
-PI_539903,PI 539903,PAR-1671-1,United States,North America,Breeding line,Developed,"","",,1990,Q2,0.99996,4,G1,0.543,0.457,0.1069,0.8021
-PI_599773,PI 599773,HA89,United States,North America,Breeding line,Developed,"",maintainer,41,1985,Q2,0.99996,4,G1,0.2171,0.7829,0.1072,0.9153
-PI_599774,PI 599774,HA 99,United States,North America,Breeding line,Developed,"",maintainer,41,1985,Q2,0.99996,4,G1,0.6563,0.3437,0.1032,0.7911
-PI_599776,PI 599776,HA 224,United States,North America,Breeding line,Developed,"",maintainer,35,1985,Q2,0.697101,4,G1,0.6139,0.3861,0.1554,0.6633
-PI_617026,PI 617026,BR1,United States,North America,Breeding line,Developed,"","",,2001,Q2,0.667783,4,admixed,0.924,0.076,0.1303,0.6342
-PI_617028,PI 617028,BR3,United States,North America,Breeding line,Developed,"","",,2001,Q2,0.648262,4,G1,0.8298,0.1702,0.1613,0.5155
-PI_617098,PI 617098,HA 425,United States,North America,Breeding line,Developed,"",maintainer,,2001,Q2,0.800287,4,G1,0.8973,0.1027,0.1236,0.6501
-PI_633749,PI 633749,SURES-1,United States,North America,Breeding line,Developed,oilseed,maintainer,,2003,Q2,0.719166,4,G1,0.5405,0.4595,0.1533,0.6723
-PI_639165,PI 639165,HA 442,United States,North America,Breeding line,Developed,"",maintainer,,2005,Q2,0.721034,4,G1,0.8545,0.1455,0.1401,0.6067
-PI_639168,PI 639168,HA 445,United States,North America,Breeding line,Developed,oilseed,maintainer,,2005,Q2,0.763316,4,G1,0.6124,0.3876,0.1386,0.6956
-PI_678787,PI 678787,HOLS1,United States,North America,Breeding line,Developed,oilseed,maintainer,,2016,Q2,0.658935,4,G1,0.9166,0.0834,0.148,0.5684
-PI_678789,PI 678789,HOLS3,United States,North America,Breeding line,Developed,oilseed,maintainer,,2016,Q2,0.72729,4,G1,0.5906,0.4094,0.1399,0.7074
-PI_287231,PI 287231,PEREDOVIK 48% OIL-YUGO,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1963,Q3,0.827983,5,G2,0.6378,0.3622,0.2689,0.3747
-PI_289622,PI 289622,PEREDOVIC,France,Western Europe,Cultivar,Collected,"","",39,1963,Q3,0.745457,5,G2,0.8459,0.1541,0.2911,0.2616
-PI_289624,PI 289624,No. 3,France,Western Europe,Cultivar,Collected,"","",33,1963,Q3,0.621954,5,G2,0.4727,0.5273,0.2583,0.4715
-PI_289625,PI 289625,No. 4,France,Western Europe,Cultivar,Collected,"","",37,1963,Q3,0.688909,5,G2,0.6994,0.3006,0.2948,0.2959
-PI_289627,PI 289627,VNIIMK 8931,France,Western Europe,Cultivar,Collected,"","",36,1963,Q3,0.669331,5,G2,0.6727,0.3273,0.2822,0.3195
-PI_294658,PI 294658,USSR SMENA 51% OIL-MN,United States,North America,Cultivar,Donated,"","",37,1964,Q3,0.850919,5,G2,0.7805,0.2195,0.2732,0.3039
-PI_297475,PI 297475,A 9345,France,Western Europe,Cultivar,Donated,"","",33,1964,Q3,0.704095,5,G2,0.7759,0.2241,0.2806,0.2887
-PI_297476,PI 297476,C 1957,France,Western Europe,Cultivar,Donated,"","",34,1964,Q3,0.716035,5,G2,0.6715,0.3285,0.2824,0.3243
-PI_297477,PI 297477,PEREDOVICK,France,Western Europe,Cultivar,Donated,"","",43,1964,Q3,0.651908,5,G2,0.3711,0.6289,0.2735,0.5063
-PI_297479,PI 297479,SMENA,France,Western Europe,Cultivar,Donated,"","",35,1964,Q3,0.72115,5,G2,0.6521,0.3479,0.27,0.3696
-PI_297480,PI 297480,V 8883,France,Western Europe,Cultivar,Donated,"","",35,1964,Q3,0.671916,5,G2,0.715,0.285,0.2832,0.295
-PI_297481,PI 297481,V 8931 MN 48% OIL,France,Western Europe,Cultivar,Donated,"","",35,1964,Q3,0.624446,5,G2,0.7052,0.2948,0.234,0.4097
-PI_307941,PI 307941,VNIIMK 6540,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",35,1965,Q3,0.835948,5,G2,0.3774,0.6226,0.2389,0.5948
-PI_343805,PI 343805,RUMAN RECORD,Romania,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1969,Q3,0.849898,5,G2,0.7622,0.2378,0.2723,0.3085
-PI_371935,PI 371935,ZARIA,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",45,1972,Q3,0.616829,5,G2,0.6561,0.3439,0.2833,0.3332
-PI_371936,PI 371936,VOSHOD,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",42,1972,Q3,0.727237,5,G2,0.8235,0.1765,0.2529,0.3354
-PI_372173,PI 372173,PEREDOVIK304 USSR60%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",44,1972,Q3,0.776572,5,G2,0.8121,0.1879,0.1942,0.4696
-PI_372174,PI 372174,PEREDOVIK308 USSR59%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",43,1972,Q3,0.785349,5,G2,0.6721,0.3279,0.2303,0.4365
-PI_372176,PI 372176,PEREDOVIK428 USSR59%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",40,1972,Q3,0.778593,5,G2,0.727,0.273,0.2227,0.4338
-PI_372178,PI 372178,PEREDOVIK473 USSR60%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",42,1972,Q3,0.725068,5,G2,0.4489,0.5511,0.2227,0.5728
-PI_379608,PI 379608,P-20,Serbia,Eastern Europe / W Asia,Cultivar,Donated,"","",41,1973,Q3,0.770876,5,G2,0.4899,0.5101,0.2514,0.4607
-PI_386320,PI 386320,L-2600,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",32,1974,Q3,0.618655,5,G2,0.4853,0.5147,0.1765,0.6582
-PI_386321,PI 386321,L-2610,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",27,1974,Q3,0.688365,5,G2,0.8811,0.1189,0.1741,0.5032
-PI_386323,PI 386323,L-2625,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",36,1974,Q3,0.85635,5,G2,0.7215,0.2785,0.1499,0.6372
-PI_402586,PI 402586,RIESTRA,Argentina,South America,Cultivar,Collected,"","",37,1973,Q3,0.671364,5,G2,0.7076,0.2924,0.2857,0.2915
-PI_431518,PI 431518,Romsun P-1384,Romania,Eastern Europe / W Asia,Breeding line,Collected,"","",31,1979,Q3,0.99996,5,G2,0.9103,0.0897,0.1447,0.5777
-PI_431519,PI 431519,Romsun V-337,Romania,Eastern Europe / W Asia,Breeding line,Collected,"","",29,1979,Q3,0.738177,5,G2,0.3655,0.6345,0.151,0.7808
-PI_431521,PI 431521,Romsun V-1352,Romania,Eastern Europe / W Asia,Breeding line,Collected,"","",29,1979,Q3,0.766115,5,G2,0.8946,0.1054,0.1591,0.544
-PI_431522,PI 431522,Romsun V-1646,Romania,Eastern Europe / W Asia,Breeding line,Collected,"","",34,1979,Q3,0.68618,5,G2,0.4293,0.5707,0.1681,0.7245
-PI_476357,PI 476357,Voronezskij-272,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",37,1981,Q3,0.703217,5,G2,0.9105,0.0895,0.2523,0.315
-PI_476358,PI 476358,Har'kovskij-50,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",37,1981,Q3,0.649927,5,G2,0.4863,0.5137,0.2476,0.4858
-PI_476658,PI 476658,Felix,Romania,Eastern Europe / W Asia,Breeding line,Donated,"","",41,1983,Q3,0.733051,5,G2,0.8853,0.1147,0.2558,0.3295
-PI_487194,PI 487194,"",Italy,Western Europe,Cultivar,Donated,"","",44,1983,Q3,0.653576,5,G2,0.8753,0.1247,0.3156,0.1958
-PI_497244,PI 497244,"",Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",40,1985,Q3,0.758553,5,G2,0.6545,0.3455,0.2514,0.385
-PI_497245,PI 497245,"",Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",45,1985,Q3,0.744886,5,G2,0.6127,0.3873,0.2627,0.3962
-PI_497930,PI 497930,"",Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",42,1985,Q3,0.747743,5,G2,0.6262,0.3738,0.2151,0.4812
-PI_517950,PI 517950,CM 602,Canada,North America,Breeding line,Donated,"","",,1988,Q3,0.611064,5,G2,0.634,0.366,0.1585,0.635
-PI_517951,PI 517951,CM 603,Canada,North America,Breeding line,Donated,"","",,1988,Q3,0.616401,5,G2,0.6881,0.3119,0.1464,0.6393
-PI_531390,PI 531390,SMJAMA,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,"","",35,1989,Q3,0.99996,5,G2,0.8837,0.1163,0.1753,0.4881
-PI_536623,PI 536623,PEM S-R-88,Spain,Western Europe,Breeding line,Donated,oilseed,"",40,1989,Q3,0.642804,5,G2,0.6916,0.3084,0.2564,0.3588
-PI_599779,PI 599779,HA 277,United States,North America,Breeding line,Developed,"",maintainer,40,1985,Q3,0.739757,5,G2,0.6866,0.3134,0.1477,0.6471
-PI_599984,PI 599984,HA 821,United States,North America,Breeding line,Developed,oilseed,maintainer,41,1985,Q3,0.99996,5,G2,0.8008,0.1992,0.1505,0.5824
-PI_633612,PI 633612,K-96,Spain,Western Europe,Breeding line,Developed,"",restorer,,2003,Q3,0.811122,5,G2,0.4015,0.5985,0.16,0.7508
-PI_633613,PI 633613,L-86,Spain,Western Europe,Breeding line,Developed,"",restorer,,2003,Q3,0.662658,5,G2,0.8996,0.1004,0.152,0.56
-PI_633614,PI 633614,P-96,Spain,Western Europe,Breeding line,Developed,"","",,2003,Q3,0.788324,5,G2,0.5585,0.4415,0.1525,0.6783
-PI_633615,PI 633615,R-96,Spain,Western Europe,Breeding line,Developed,"",restorer,,2003,Q3,0.895139,5,G2,0.9179,0.0821,0.1663,0.5192
-PI_641057,PI 641057,AM-1,Spain,Western Europe,Breeding line,Developed,"","",,2005,Q3,0.811778,5,G2,0.8564,0.1436,0.1654,0.533
-PI_641058,PI 641058,AM-2,Spain,Western Europe,Breeding line,Developed,"","",,2005,Q3,0.9418,5,G2,0.9056,0.0944,0.1427,0.589
-PI_650337,PI 650337,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,"","",43,1978,Q3,0.899465,5,G2,0.6028,0.3972,0.2357,0.4613
-PI_650338,PI 650338,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,"","",46,1978,Q3,0.788341,5,G2,0.8495,0.1505,0.3034,0.2356
-PI_650339,PI 650339,"",Hungary,Eastern Europe / W Asia,Cultivar,Collected,"","",38,1978,Q3,0.668843,5,G2,0.8378,0.1622,0.2165,0.4078
-PI_650342,PI 650342,"",Italy,Western Europe,Cultivar,Collected,"","",39,1978,Q3,0.85307,5,G2,0.6588,0.3412,0.2487,0.3926
-PI_650343,PI 650343,"",Romania,Eastern Europe / W Asia,Cultivar,Collected,"","",40,1978,Q3,0.867715,5,G2,0.7252,0.2748,0.2728,0.319
-PI_650344,PI 650344,"",Spain,Western Europe,Cultivar,Collected,"","",41,1978,Q3,0.952611,5,G2,0.8358,0.1642,0.2565,0.3135
-PI_650350,PI 650350,780676,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",35,1985,Q3,0.854109,5,G2,0.7409,0.2591,0.1369,0.655
-PI_650352,PI 650352,780678,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",37,1985,Q3,0.866834,5,G2,0.8103,0.1897,0.139,0.6382
-PI_650408,PI 650408,"",Germany,Western Europe,Cultivar,Donated,"","",31,1985,Q3,0.767522,5,G2,0.8835,0.1165,0.155,0.5513
-PI_650411,PI 650411,"",Germany,Western Europe,Cultivar,Donated,"","",35,1985,Q3,0.703688,5,G2,0.6602,0.3398,0.1674,0.5953
-PI_650472,PI 650472,"",Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",32,1985,Q3,0.722586,5,G2,0.5242,0.4758,0.2264,0.5081
-PI_650473,PI 650473,803455,Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",34,1985,Q3,0.790209,5,G2,0.7485,0.2515,0.1879,0.5204
-PI_650493,PI 650493,"",Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",37,1985,Q3,0.880266,5,G2,0.591,0.409,0.1774,0.6059
-PI_650497,PI 650497,803420,Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",35,1985,Q3,0.644173,5,G2,0.61,0.39,0.1319,0.7223
-PI_650505,PI 650505,803430,Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",33,1985,Q3,0.645317,5,G2,0.5387,0.4613,0.1813,0.6208
-PI_650534,PI 650534,VIR 107,Uncertain,Unknown,Cultivar,Donated,"","",41,1985,Q3,0.606394,5,G2,0.7442,0.2558,0.1659,0.5642
-PI_650540,PI 650540,803301,Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",34,1985,Q3,0.67811,5,G2,0.7809,0.2191,0.1553,0.5807
-PI_650552,PI 650552,"",United States,North America,Cultivar,Developed,"","",45,1985,Q3,0.874058,5,G2,0.742,0.258,0.1864,0.5324
-PI_650553,PI 650553,"",United States,North America,Cultivar,Developed,"","",42,1985,Q3,0.781025,5,G2,0.6523,0.3477,0.1746,0.5792
-PI_650561,PI 650561,803343,United States,North America,Cultivar,Developed,"","",44,1985,Q3,0.784502,5,G2,0.7174,0.2826,0.2438,0.3906
-PI_650562,PI 650562,"",United States,North America,Cultivar,Developed,"","",43,1985,Q3,0.770699,5,G2,0.6863,0.3137,0.2725,0.3481
-PI_650734,PI 650734,Smena,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",44,1992,Q3,0.88114,5,G2,0.7755,0.2245,0.2623,0.3284
-PI_650736,PI 650736,Rassvet,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",40,1992,Q3,0.77693,5,G2,0.4648,0.5352,0.1466,0.7261
-PI_650778,PI 650778,"",Russian Federation,Eastern Europe / W Asia,Cultivar,Developed,"","",44,1992,Q3,0.789562,5,G2,0.6412,0.3588,0.1524,0.6393
-PI_650781,PI 650781,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,"","",43,1992,Q3,0.740203,5,G2,0.826,0.174,0.1544,0.5623
-PI_664181,PI 664181,CM 447,Canada,North America,Breeding line,Donated,"","",,1984,Q3,0.646869,5,G2,0.8862,0.1138,0.1481,0.5723
-PI_170393,PI 170393,No. 2008,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",25,1948,Q4,0.766534,3,G3,0.6478,0.3522,0.2239,0.4179
-PI_172907,PI 172907,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",28,1949,Q4,0.911051,3,G3,0.7245,0.2755,0.2114,0.4004
-PI_175732,PI 175732,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",26,1949,Q4,0.726061,3,G3,0.5475,0.4525,0.1984,0.5228
-PI_176974,PI 176974,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",25,1949,Q4,0.858831,3,G3,0.8596,0.1404,0.3017,0.2002
-PI_176975,PI 176975,KATMER,Turkey,Eastern Europe / W Asia,Cultivar,Collected,"","",21,1949,Q4,0.913955,3,G3,0.8292,0.1708,0.2368,0.334
-PI_193775,PI 193775,LODGING RESISTANCE,Ethiopia,Africa,Cultivar,Collected,"","",26,1951,Q4,0.932263,3,G3,0.7237,0.2763,0.2852,0.242
-PI_219649,PI 219649,LODGING RESISTANCE,Austria,Western Europe,Cultivar,Collected,"","",26,1954,Q4,0.785244,3,G3,0.7535,0.2465,0.2894,0.2383
-PI_226465,PI 226465,LODGING RESISTANCE,Iran,Asia / Oceania,Cultivar,Collected,"","",28,1955,Q4,0.622601,3,G3,0.6288,0.3712,0.2854,0.2976
-PI_432504,PI 432504,Hopi dye,United States,North America,Landrace,Collected,"","",31,1978,Q4,0.999958,3,G3,0.8021,0.1979,0.1792,0.4092
-PI_432507,PI 432507,Hopi dye,United States,North America,Landrace,Collected,"","",26,1978,Q4,0.953382,3,G3,0.4813,0.5187,0.1544,0.5359
-PI_432513,PI 432513,GN 0778,United States,North America,Landrace,Collected,"","",28,1978,Q4,0.679822,3,G3,0.8755,0.1245,0.2839,0.2246
-PI_432514,PI 432514,Havasupai,United States,North America,Landrace,Collected,"","",36,1978,Q4,0.886564,3,G3,0.4493,0.5507,0.2431,0.352
-PI_490319,PI 490319,Primrose,Poland,Eastern Europe / W Asia,Cultivar,Donated,"","",25,1982,Q4,0.724543,3,G3,0.7728,0.2272,0.2753,0.2165
-PI_497249,PI 497249,"",Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",29,1985,Q4,0.766007,3,G3,0.761,0.239,0.1772,0.4845
-PI_507889,PI 507889,3100391,Hungary,Eastern Europe / W Asia,Landrace,Collected,"","",23,1987,Q4,0.99996,3,G3,0.8362,0.1638,0.313,0.1765
-PI_507892,PI 507892,3100394,Hungary,Eastern Europe / W Asia,Landrace,Collected,"","",23,1987,Q4,0.99996,3,G3,0.7709,0.2291,0.2638,0.2678
-PI_507897,PI 507897,3100400,Hungary,Eastern Europe / W Asia,Landrace,Collected,"","",22,1987,Q4,0.916137,3,G3,0.6507,0.3493,0.2987,0.2298
-PI_531339,PI 531339,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",28,1989,Q4,0.99996,3,G3,0.866,0.134,0.2554,0.2718
-PI_531348,PI 531348,"FARMOSI ""A""",Hungary,Eastern Europe / W Asia,Landrace,Developed,"","",26,1989,Q4,0.80718,3,G3,0.7871,0.2129,0.1866,0.4561
-PI_531372,PI 531372,"NAGYKALLOI ""F""",Hungary,Eastern Europe / W Asia,Landrace,Developed,"","",27,1989,Q4,0.973454,3,G3,0.8054,0.1946,0.2554,0.2938
-PI_650511,PI 650511,803347,United States,North America,Landrace,Collected,"","",38,1985,Q4,0.64647,3,G3,0.6672,0.3328,0.158,0.554
-PI_650647,PI 650647,HSP-400,United States,North America,Cultivar,Collected,"","",,1986,Q4,0.703643,3,G3,0.7349,0.2651,0.1784,0.4513
-PI_650789,PI 650789,Hungarian #4,China,Asia / Oceania,Cultivar,Collected,"","",32,1995,Q4,0.891837,3,G3,0.7332,0.2668,0.3006,0.2016
-PI_650795,PI 650795,CLUJ,Romania,Eastern Europe / W Asia,Cultivar,Donated,"","",29,1995,Q4,0.796586,3,G3,0.6186,0.3814,0.2525,0.3519
-PI_497250,PI 497250,"",Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",34,1985,Q5,0.816796,1,admixed,0.7735,0.2265,0.1807,0.4865
-PI_536626,PI 536626,R-Sin-82,Spain,Western Europe,Breeding line,Donated,"",restorer,44,1989,Q5,0.621764,1,G1,0.6634,0.3366,0.1457,0.6588
-PI_599760,PI 599760,RHA 275,United States,North America,Breeding line,Developed,"",restorer,40,1985,Q5,0.952643,1,G1,0.6593,0.3407,0.1724,0.5823
-PI_599763,PI 599763,RHA 279,United States,North America,Breeding line,Developed,"",restorer,43,1985,Q5,0.99996,1,G1,0.841,0.159,0.1697,0.5156
-PI_599768,PI 599768,RHA 801,United States,North America,Breeding line,Developed,oilseed,restorer,44,1985,Q5,0.894425,1,G1,0.5742,0.4258,0.1769,0.5917
-PI_599786,PI 599786,RHA 271,United States,North America,Breeding line,Developed,"",restorer,49,1985,Q5,0.999954,1,G1,0.7365,0.2635,0.1704,0.5455
-PI_599787,PI 599787,RHA 272,United States,North America,Breeding line,Developed,"",restorer,43,1985,Q5,0.999957,1,G1,0.7355,0.2645,0.169,0.5539
-PI_607921,PI 607921,R-188,United States,North America,Breeding line,Developed,"","",,1999,Q5,0.676251,1,G1,0.8706,0.1294,0.1686,0.5158
-PI_631496,PI 631496,"",Spain,Western Europe,Breeding line,Developed,oilseed,restorer,,2002,Q5,0.999956,1,G1,0.8308,0.1692,0.1747,0.5031
-PI_650363,PI 650363,780722,France,Western Europe,Cultivar,Collected,"","",37,1985,Q5,0.601623,1,admixed,0.7092,0.2908,0.1739,0.5228
-PI_673341,PI 673341,CM 592,Canada,North America,Breeding line,Donated,"",restorer,,1984,Q5,0.614051,1,G1,0.9055,0.0945,0.1654,0.518
-PI_253416,PI 253416,MN-31% OIL,Spain,Western Europe,Cultivar,Collected,"","",29,1958,admixed,0.443998,2,admixed,0.4506,0.5494,0.246,0.4742
-PI_253776,PI 253776,LODGING RESISTANCE,Iraq,Asia / Oceania,Cultivar,Collected,"","",31,1958,admixed,0.468281,2,G3,0.7491,0.2509,0.297,0.241
-PI_257642,PI 257642,VNIIMK 1646 MN-42% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",38,1959,admixed,0.595851,5,G2,0.4109,0.5891,0.2573,0.5146
-PI_257643,PI 257643,VNIIMK 3519 CANA-37%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",28,1959,admixed,0.419563,5,G2,0.2772,0.7228,0.2238,0.6724
-PI_262515,PI 262515,BULG,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,"","",33,1959,admixed,0.501436,5,G2,0.5171,0.4829,0.2615,0.4347
-PI_262520,PI 262520,USSR JDANOWSKII 8281,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",35,1959,admixed,0.484525,2,G2,0.527,0.473,0.2791,0.3921
-PI_265099,PI 265099,VNIIMK 1646 4 MOTH RES,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",37,1960,admixed,0.571851,5,G2,0.8579,0.1421,0.3148,0.2181
-PI_265103,PI 265103,VNIIMK 8883 MOTH RES,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",32,1960,admixed,0.499133,5,G2,0.8848,0.1152,0.2133,0.4028
-PI_291407,PI 291407,HYBRIDE LARAGUE,Hungary,Eastern Europe / W Asia,Cultivar,Donated,"","",24,1963,admixed,0.34547,2,admixed,0.3237,0.6763,0.2506,0.5614
-PI_291411,PI 291411,VNIIMK 8883 49% OIL-YUGO,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Donated,"","",34,1963,admixed,0.375972,5,G2,0.5012,0.4988,0.2791,0.4171
-PI_296292,PI 296292,SHORT RUSSIAN MN 34%OIL,South Africa,Africa,Cultivar,Donated,"","",27,1964,admixed,0.401582,2,admixed,0.3918,0.6082,0.2771,0.4412
-PI_298632,PI 298632,SARATOVSKI MN 49% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",39,1964,admixed,0.576202,2,G2,0.6003,0.3997,0.2783,0.3528
-PI_378893,PI 378893,CORDOBES INTA,Argentina,South America,Cultivar,Donated,"","",31,1973,admixed,0.594381,2,admixed,0.681,0.319,0.2924,0.2517
-PI_386322,PI 386322,L-2621,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,"","",32,1974,admixed,0.528819,5,G2,0.746,0.254,0.166,0.5633
-PI_402584,PI 402584,CAMBA,Argentina,South America,Cultivar,Collected,"","",36,1973,admixed,0.568171,5,G2,0.7235,0.2765,0.2857,0.2928
-PI_406022,PI 406022,KN 100 SD VERY LONG,Iran,Asia / Oceania,Cultivar,Collected,"","",25,1975,admixed,0.542414,2,admixed,0.6499,0.3501,0.2825,0.3062
-PI_471077,PI 471077,"",Former Serbia and Montenegro,Eastern Europe / W Asia,Breeding line,Collected,"","",38,1982,admixed,0.400252,5,admixed,0.7047,0.2953,0.2321,0.4012
-PI_476759,PI 476759,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Donated,"","",37,1983,admixed,0.534015,1,admixed,0.7191,0.2809,0.2421,0.3955
-PI_476853,PI 476853,"",United States,North America,Cultivar,Developed,"","",23,1983,admixed,0.576767,2,admixed,0.6956,0.3044,0.3162,0.226
-PI_496263,PI 496263,Damaya,China,Asia / Oceania,Landrace,Donated,"","",24,1985,admixed,0.550852,2,G2,0.667,0.333,0.1949,0.5109
-PI_497243,PI 497243,"",Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,"","",34,1985,admixed,0.431326,5,G2,0.6654,0.3346,0.2864,0.3145
-PI_517955,PI 517955,CM 607,Canada,North America,Breeding line,Donated,"","",,1988,admixed,0.500971,5,G2,0.6816,0.3184,0.1539,0.6224
-PI_517956,PI 517956,CM 608,Canada,North America,Breeding line,Donated,"",restorer,,1988,admixed,0.363702,1,admixed,0.7484,0.2516,0.1599,0.5843
-PI_517957,PI 517957,CM 609,Canada,North America,Breeding line,Donated,"",restorer,,1988,admixed,0.395391,1,admixed,0.7247,0.2753,0.1655,0.5815
-PI_517958,PI 517958,CM 610,Canada,North America,Breeding line,Donated,"",restorer,,1988,admixed,0.440188,1,G1,0.3543,0.6457,0.176,0.7421
-PI_518653,PI 518653,CM 596,Canada,North America,Breeding line,Donated,"",restorer,,1988,admixed,0.582026,1,G1,0.3075,0.6925,0.168,0.7871
-PI_531353,PI 531353,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",42,1989,admixed,0.558797,5,G2,0.4961,0.5039,0.2459,0.4906
-PI_531360,PI 531360,"",Hungary,Eastern Europe / W Asia,Cultivar,Developed,"","",39,1989,admixed,0.359072,1,G1,0.5681,0.4319,0.1943,0.5877
-PI_531393,PI 531393,"",France,Western Europe,Cultivar,Collected,"","",45,1989,admixed,0.516748,1,G1,0.5612,0.4388,0.1592,0.6502
-PI_531503,PI 531503,ID-LRLYC,United States,North America,Breeding line,Donated,"","",45,1989,admixed,0.423949,1,admixed,0.6006,0.3994,0.1758,0.6061
-PI_536624,PI 536624,B-Sin-82,Spain,Western Europe,Breeding line,Donated,oilseed,"",41,1989,admixed,0.413436,5,admixed,0.8132,0.1868,0.3092,0.2286
-PI_536625,PI 536625,B-FSS-88,Spain,Western Europe,Breeding line,Donated,oilseed,restorer,41,1989,admixed,0.492363,5,admixed,0.2891,0.7109,0.2239,0.6542
-PI_536629,PI 536629,F-Yu-82,Spain,Western Europe,Breeding line,Donated,"",restorer,46,1989,admixed,0.35964,1,G1,0.5842,0.4158,0.2295,0.4642
-PI_536630,PI 536630,R-C-SE-82,Spain,Western Europe,Breeding line,Donated,"",restorer,42,1989,admixed,0.469822,1,G1,0.5007,0.4993,0.2021,0.5665
-PI_546356,PI 546356,CM 619,Canada,North America,Breeding line,Developed,"",restorer,37,1991,admixed,0.556417,1,G1,0.5631,0.4369,0.1681,0.645
-PI_546358,PI 546358,CM 621,Canada,North America,Breeding line,Developed,"",restorer,53,1991,admixed,0.545961,4,G1,0.7872,0.2128,0.1394,0.6377
-PI_566825,PI 566825,CM 595,Canada,North America,Breeding line,Developed,"","",39,1993,admixed,0.370091,5,G2,0.4541,0.5459,0.1655,0.7084
-PI_566830,PI 566830,CM 632,Canada,North America,Breeding line,Developed,"",restorer,35,1993,admixed,0.365738,1,G1,0.8059,0.1941,0.162,0.5483
-PI_599754,PI 599754,RHA 265,United States,North America,Breeding line,Developed,"",restorer,38,1985,admixed,0.571683,1,admixed,0.825,0.175,0.1644,0.5391
-PI_599755,PI 599755,RHA 266,United States,North America,Breeding line,Developed,"",restorer,36,1985,admixed,0.577208,1,G1,0.6365,0.3635,0.1639,0.614
-PI_599775,PI 599775,HA 124,United States,North America,Breeding line,Developed,"",maintainer,35,1985,admixed,0.566972,5,G2,0.6702,0.3298,0.1513,0.6231
-PI_599777,PI 599777,HA 232,United States,North America,Breeding line,Developed,"",maintainer,38,1985,admixed,0.568965,5,G2,0.4038,0.5962,0.1641,0.7187
-PI_599778,PI 599778,HA 234,United States,North America,Breeding line,Developed,"",maintainer,40,1985,admixed,0.537958,5,G2,0.7878,0.2122,0.1564,0.5625
-PI_600716,PI 600716,CO-PB 121,Spain,Western Europe,Landrace,Collected,"","",43,1990,admixed,0.432443,2,G2,0.6918,0.3082,0.1811,0.516
-PI_600987,PI 600987,"",United States,North America,Cultivar,Developed,"","",35,1983,admixed,0.399562,5,G2,0.5768,0.4232,0.1652,0.6376
-PI_607920,PI 607920,R-185,United States,North America,Breeding line,Developed,"","",,1999,admixed,0.524135,1,G1,0.7034,0.2966,0.1664,0.579
-PI_607922,PI 607922,R-190,United States,North America,Breeding line,Developed,"","",,1999,admixed,0.438956,1,admixed,0.8765,0.1235,0.1864,0.473
-PI_607924,PI 607924,R-202,United States,North America,Breeding line,Developed,"","",,1999,admixed,0.558114,1,admixed,0.6789,0.3211,0.1799,0.5506
-PI_607925,PI 607925,R-206,United States,North America,Breeding line,Developed,"","",,1999,admixed,0.349081,1,admixed,0.4388,0.5612,0.1912,0.651
-PI_617027,PI 617027,BR2,United States,North America,Breeding line,Developed,"","",,2001,admixed,0.597303,4,admixed,0.567,0.433,0.1292,0.7314
-PI_617029,PI 617029,BR4,United States,North America,Breeding line,Developed,"","",,2001,admixed,0.581819,4,admixed,0.3436,0.6564,0.1332,0.8401
-PI_617100,PI 617100,RHA 427,United States,North America,Breeding line,Developed,"",restorer,,2001,admixed,0.435842,1,G1,0.5382,0.4618,0.151,0.6701
-PI_632340,PI 632340,HA 431,United States,North America,Breeding line,Developed,oilseed,maintainer,,2002,admixed,0.526847,5,admixed,0.9124,0.0876,0.1539,0.547
-PI_633750,PI 633750,SURES-2,United States,North America,Breeding line,Developed,oilseed,restorer,,2003,admixed,0.454593,1,G1,0.7165,0.2835,0.1583,0.5765
-PI_639166,PI 639166,RHA 443,United States,North America,Breeding line,Developed,oilseed,restorer,,2005,admixed,0.533243,1,G1,0.5867,0.4133,0.1428,0.6426
-PI_641059,PI 641059,AM-3,Spain,Western Europe,Breeding line,Developed,"","",,2005,admixed,0.394439,5,admixed,0.6461,0.3539,0.1578,0.6379
-PI_642773,PI 642773,RHA 454,United States,North America,Breeding line,Developed,"",restorer,,2006,admixed,0.536975,1,G1,0.664,0.336,0.1358,0.6704
-PI_650362,PI 650362,780721,France,Western Europe,Cultivar,Collected,"","",34,1985,admixed,0.442036,5,G2,0.3294,0.6706,0.1677,0.7533
-PI_650364,PI 650364,"",Germany,Western Europe,Cultivar,Donated,"","",31,1985,admixed,0.458799,5,G2,0.8241,0.1759,0.1533,0.5646
-PI_650368,PI 650368,"",Germany,Western Europe,Cultivar,Donated,"","",27,1985,admixed,0.448213,2,admixed,0.3976,0.6024,0.155,0.701
-PI_650370,PI 650370,"",Germany,Western Europe,Cultivar,Donated,"","",30,1985,admixed,0.442178,5,G2,0.471,0.529,0.187,0.6546
-PI_650375,PI 650375,"",Germany,Western Europe,Cultivar,Donated,"","",28,1985,admixed,0.523115,2,admixed,0.3827,0.6173,0.1674,0.7023
-PI_650379,PI 650379,"",Germany,Western Europe,Cultivar,Donated,"","",25,1985,admixed,0.446903,2,admixed,0.3349,0.6651,0.1904,0.6713
-PI_650381,PI 650381,"",Germany,Western Europe,Cultivar,Donated,"","",18,1985,admixed,0.582553,2,G2,0.5483,0.4517,0.1781,0.5967
-PI_650385,PI 650385,Vniimk 1646,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,"","",37,1985,admixed,0.516343,5,G2,0.906,0.094,0.1636,0.5276
-PI_650396,PI 650396,"",Argentina,South America,Cultivar,Donated,"","",42,1985,admixed,0.411125,1,admixed,0.694,0.306,0.1853,0.5246
-PI_650406,PI 650406,"",Germany,Western Europe,Cultivar,Donated,"","",30,1985,admixed,0.457625,2,admixed,0.4607,0.5393,0.1729,0.635
-PI_650407,PI 650407,"",Germany,Western Europe,Breeding line,Donated,"","",17,1985,admixed,0.499362,2,G3,0.8356,0.1644,0.1736,0.4776
-PI_650412,PI 650412,"",Germany,Western Europe,Cultivar,Donated,"","",27,1985,admixed,0.5039,5,G2,0.8772,0.1228,0.1613,0.522
-PI_650442,PI 650442,"",Germany,Western Europe,Cultivar,Donated,"","",17,1985,admixed,0.537924,4,G1,0.5742,0.4258,0.1899,0.5678
-PI_650443,PI 650443,"",Germany,Western Europe,Cultivar,Donated,"","",28,1985,admixed,0.498259,2,G3,0.669,0.331,0.183,0.503
-PI_650471,PI 650471,"",Romania,Eastern Europe / W Asia,Cultivar,Developed,"","",36,1985,admixed,0.506494,5,admixed,0.5096,0.4904,0.2489,0.4567
-PI_650533,PI 650533,VIR 101,Uncertain,Unknown,Cultivar,Collected,"","",32,1985,admixed,0.397976,5,admixed,0.576,0.424,0.185,0.5948
-PI_650538,PI 650538,813140,Argentina,South America,Cultivar,Developed,"","",32,1985,admixed,0.509914,2,admixed,0.5359,0.4641,0.1745,0.6071
-PI_650539,PI 650539,Pergamino 71/538,Argentina,South America,Cultivar,Developed,"","",27,1985,admixed,0.357542,2,admixed,0.6955,0.3045,0.1731,0.5232
-PI_650655,PI 650655,Ames 10099,China,Asia / Oceania,Cultivar,Developed,"","",28,1989,admixed,0.591923,2,admixed,0.7318,0.2682,0.1854,0.488
-PI_650664,PI 650664,Ames 10108,China,Asia / Oceania,Cultivar,Developed,"","",31,1989,admixed,0.36543,2,admixed,0.361,0.639,0.2428,0.5555
-PI_650720,PI 650720,CO-PB 120,Spain,Western Europe,Landrace,Collected,"","",25,1990,admixed,0.466861,2,admixed,0.7691,0.2309,0.2367,0.3556
-PI_650782,PI 650782,"",Russian Federation,Eastern Europe / W Asia,Cultivar,Developed,"","",39,1992,admixed,0.508272,5,G2,0.625,0.375,0.2895,0.2948
-PI_650785,PI 650785,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,"","",,1992,admixed,0.561172,5,G2,0.7391,0.2609,0.191,0.5027
-PI_650798,PI 650798,"",Argentina,South America,Cultivar,Donated,"","",38,1995,admixed,0.472079,5,admixed,0.7649,0.2351,0.169,0.5195
-PI_650811,PI 650811,"",Argentina,South America,Cultivar,Donated,"","",40,1995,admixed,0.294303,2,admixed,0.4623,0.5377,0.2593,0.4367
-PI_650816,PI 650816,"",Argentina,South America,Cultivar,Donated,"","",36,1995,admixed,0.538113,2,admixed,0.7953,0.2047,0.2185,0.4135
-PI_650830,PI 650830,"",Argentina,South America,Cultivar,Donated,"","",34,1995,admixed,0.48488,2,admixed,0.8166,0.1834,0.1612,0.5376
-PI_664149,PI 664149,"",Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,"","",37,1992,admixed,0.539798,5,admixed,0.46,0.54,0.2434,0.5148
-PI_664161,PI 664161,TAM-CRD HA 60,United States,North America,Cultivar,Donated,"","",,1969,admixed,0.489106,5,G2,0.9009,0.0991,0.1652,0.4987
-PI_664164,PI 664164,405A,United States,North America,Breeding line,Donated,"",maintainer,,1978,admixed,0.555218,2,G2,0.5787,0.4213,0.3131,0.2914
-PI_664190,PI 664190,ND-NONOIL 2,United States,North America,Breeding line,Developed,confection,"",,1986,admixed,0.519599,2,admixed,0.5756,0.4244,0.2657,0.4004
-PI_667184,PI 667184,RHA 468,United States,North America,Cultivar,Developed,oilseed,restorer,,2013,admixed,0.580879,1,G1,0.8763,0.1237,0.1657,0.5086
-PI_673345,PI 673345,SDHAR1-HO84,United States,North America,Breeding line,Donated,"",restorer,,1986,admixed,0.518521,1,admixed,0.7397,0.2603,0.2634,0.3424
+SAMPLE,ACCESSION,NAME,COUNTRY,REGION,STATUS,ORIGIN_EVENT,MARKET_TYPE,HETEROTIC_GROUP,HETEROTIC_SOURCE,OIL_PCT,YEAR,CLUSTER,MAX_ANCESTRY,DAPC_GROUP,K3_GROUP,CALL_RATE,MISS_RATE,HO,F_ROH,IN_WHOLE_PANEL_CORE,IN_STRATIFIED_CORE
+PI_162675,PI 162675,KLEIN,Argentina,South America,Cultivar,Collected,,,,29,1948,Q1,0.761494,2,admixed,0.7762,0.2238,0.2987,0.2579,0,0
+PI_162784,PI 162784,No. 167,Argentina,South America,Cultivar,Collected,,,,29,1948,Q1,0.725286,2,G3,0.8491,0.1509,0.3264,0.1829,1,0
+PI_170394,PI 170394,No. 2309,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,32,1948,Q1,0.847802,2,admixed,0.7258,0.2742,0.2981,0.2664,0,0
+PI_170418,PI 170418,No. 3241,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,26,1948,Q1,0.868371,2,admixed,0.7803,0.2197,0.3243,0.1959,1,0
+PI_170426,PI 170426,No. 3447,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,30,1948,Q1,0.739949,2,admixed,0.8533,0.1467,0.3144,0.2054,1,0
+PI_170431,PI 170431,No. 4030,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,26,1948,Q1,0.776975,2,admixed,0.4932,0.5068,0.2936,0.3694,0,0
+PI_171655,PI 171655,AYCICEGI,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,30,1948,Q1,0.725924,2,admixed,0.7205,0.2795,0.2941,0.2651,0,0
+PI_175723,PI 175723,GONONDU,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,27,1949,Q1,0.74382,2,admixed,0.7394,0.2606,0.3205,0.2237,1,0
+PI_175724,PI 175724,No. 5473,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,29,1949,Q1,0.747033,2,admixed,0.8548,0.1452,0.3438,0.1627,1,1
+PI_175727,PI 175727,ALACA,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,30,1949,Q1,0.846334,2,admixed,0.7841,0.2159,0.3281,0.1961,1,0
+PI_176973,PI 176973,No. 5884,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,27,1949,Q1,0.764098,2,admixed,0.735,0.265,0.2969,0.2653,0,0
+PI_192943,PI 192943,,China,Asia / Oceania,Cultivar,Donated,,,,27,1950,Q1,0.695181,2,admixed,0.7617,0.2383,0.2806,0.2735,1,1
+PI_251464,PI 251464,No. K1899,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,27,1958,Q1,0.773652,2,admixed,0.7158,0.2842,0.315,0.2294,0,0
+PI_251901,PI 251901,JDANOVSKY6432 ND 31%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,29,1958,Q1,0.803112,2,admixed,0.8381,0.1619,0.3174,0.2008,0,0
+PI_257640,PI 257640,CHERNYANKA 11 MN-39%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,32,1959,Q1,0.770537,2,G2,0.5428,0.4572,0.2796,0.3821,0,0
+PI_257641,PI 257641,STEPNYAK MN-34% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1959,Q1,0.795019,2,G2,0.8957,0.1043,0.3004,0.2259,0,0
+PI_267665,PI 267665,LODGING RESISTANCE,Uruguay,South America,Cultivar,Donated,,,,28,1960,Q1,0.69656,2,admixed,0.579,0.421,0.2692,0.3571,0,0
+PI_289623,PI 289623,No. 2,France,Western Europe,Cultivar,Collected,,,,26,1963,Q1,0.961819,2,admixed,0.8845,0.1155,0.3217,0.196,0,0
+PI_289626,PI 289626,No. 5,France,Western Europe,Cultivar,Collected,,,,26,1963,Q1,0.761555,2,G2,0.4619,0.5381,0.2738,0.4413,0,0
+PI_291402,PI 291402,IREGI KORAI CSIKOS,Hungary,Eastern Europe / W Asia,Cultivar,Donated,,,,27,1963,Q1,0.891284,2,G2,0.7198,0.2802,0.2857,0.299,0,0
+PI_296287,PI 296287,ELLA 37% OIL-MN,South Africa,Africa,Cultivar,Donated,,,,32,1964,Q1,0.818558,2,admixed,0.7504,0.2496,0.2963,0.2714,1,0
+PI_371934,PI 371934,TCHERNIANKA 66,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,34,1972,Q1,0.917543,2,admixed,0.8545,0.1455,0.2223,0.3694,1,1
+PI_378894,PI 378894,GUAYACAN INTA,Argentina,South America,Cultivar,Donated,,,,30,1973,Q1,0.788819,2,admixed,0.7395,0.2605,0.2886,0.2742,0,1
+PI_386239,PI 386239,KARLIK,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1974,Q1,0.667034,2,G2,0.6636,0.3364,0.2596,0.3604,0,0
+PI_406645,PI 406645,POLESTAR,Australia,Asia / Oceania,Cultivar,Donated,,,,28,1976,Q1,0.863774,2,G2,0.6748,0.3252,0.2961,0.292,0,0
+PI_490281,PI 490281,Ames 101,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,26,1960,Q1,0.778584,2,G2,0.6314,0.3686,0.1782,0.5723,0,0
+PI_490282,PI 490282,Ames 102,Jordan,Asia / Oceania,Cultivar,Developed,,,,26,1980,Q1,0.766229,2,G2,0.6169,0.3831,0.1808,0.5645,0,0
+PI_496264,PI 496264,Dong Feng,China,Asia / Oceania,Landrace,Donated,,,,26,1985,Q1,0.634104,2,admixed,0.621,0.379,0.1802,0.5503,0,0
+PI_496265,PI 496265,Liao 2,China,Asia / Oceania,Landrace,Donated,,,,24,1985,Q1,0.755868,2,admixed,0.8282,0.1718,0.1997,0.4307,1,1
+PI_496266,PI 496266,Xin Jiang 2,China,Asia / Oceania,Landrace,Donated,,,,38,1985,Q1,0.643707,2,G2,0.8782,0.1218,0.2594,0.3061,1,1
+PI_497931,PI 497931,,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1985,Q1,0.722107,2,admixed,0.7871,0.2129,0.1989,0.4443,1,1
+PI_518651,PI 518651,CM 593,Canada,North America,Breeding line,Donated,confection,,,,1988,Q1,0.681243,2,G2,0.7368,0.2632,0.3206,0.2172,0,0
+PI_531350,PI 531350,,France,Western Europe,Cultivar,Collected,,,,28,1989,Q1,0.673497,2,G2,0.8739,0.1261,0.2583,0.3084,1,1
+PI_599764,PI 599764,RHA 294,United States,North America,Breeding line,Developed,confection,restorer,narrative,33,1985,Q1,0.71664,2,admixed,0.7781,0.2219,0.1972,0.4495,0,0
+PI_650365,PI 650365,,Germany,Western Europe,Cultivar,Donated,,,,26,1985,Q1,0.928633,2,admixed,0.8345,0.1655,0.2835,0.267,0,0
+PI_650369,PI 650369,,Germany,Western Europe,Cultivar,Donated,,,,20,1985,Q1,0.925413,2,admixed,0.7856,0.2144,0.1668,0.533,0,0
+PI_650372,PI 650372,,Germany,Western Europe,Cultivar,Donated,,,,23,1985,Q1,0.956817,2,G2,0.8343,0.1657,0.1775,0.4848,1,1
+PI_650409,PI 650409,,Germany,Western Europe,Cultivar,Donated,,,,32,1985,Q1,0.852741,2,G2,0.5789,0.4211,0.1851,0.5801,0,0
+PI_650438,PI 650438,,Germany,Western Europe,Cultivar,Donated,,,,28,1985,Q1,0.94368,2,admixed,0.8879,0.1121,0.1714,0.4988,1,0
+PI_650537,PI 650537,813139,Argentina,South America,Cultivar,Developed,,,,33,1985,Q1,0.607746,2,admixed,0.714,0.286,0.171,0.5475,0,0
+PI_650656,PI 650656,Ames 10100,China,Asia / Oceania,Cultivar,Developed,,,,28,1989,Q1,0.626552,2,admixed,0.6604,0.3396,0.2846,0.3049,0,0
+PI_650657,PI 650657,Ames 10101,China,Asia / Oceania,Cultivar,Developed,,,,28,1989,Q1,0.703805,2,admixed,0.6877,0.3123,0.2385,0.4065,0,0
+PI_650660,PI 650660,Ames 10104,China,Asia / Oceania,Cultivar,Developed,,,,31,1989,Q1,0.635488,2,admixed,0.8329,0.1671,0.2683,0.2871,1,1
+PI_650662,PI 650662,Ames 10106,China,Asia / Oceania,Cultivar,Developed,,,,30,1989,Q1,0.824758,2,admixed,0.7363,0.2637,0.2414,0.361,0,0
+PI_650791,PI 650791,Ames 22281,China,Asia / Oceania,Cultivar,Collected,,,,31,1995,Q1,0.608175,2,admixed,0.8035,0.1965,0.3237,0.1928,1,0
+PI_650793,PI 650793,Ames 22283,China,Asia / Oceania,Cultivar,Collected,,,,35,1995,Q1,0.69936,2,admixed,0.7651,0.2349,0.2881,0.2549,0,0
+PI_650796,PI 650796,,Argentina,South America,Cultivar,Donated,,,,32,1995,Q1,0.706133,2,admixed,0.6899,0.3101,0.195,0.4741,0,0
+PI_664168,PI 664168,HA GERMPLASM POOL I,United States,North America,Breeding line,Developed,,,,36,1982,Q1,0.776598,2,admixed,0.8378,0.1622,0.3122,0.1961,1,0
+PI_664191,PI 664191,ND-NONOIL 3,United States,North America,Breeding line,Developed,confection,,,25,1986,Q1,0.930364,2,G2,0.9044,0.0956,0.1822,0.4469,1,0
+PI_664195,PI 664195,ND-NONOIL B4,United States,North America,Breeding line,Developed,confection,,,,1986,Q1,0.703077,2,admixed,0.6196,0.3804,0.1727,0.5842,0,0
+PI_664196,PI 664196,ND-NONOIL B5,United States,North America,Breeding line,Developed,confection,,,,1986,Q1,0.914791,2,G2,0.8527,0.1473,0.178,0.4742,0,0
+PI_664197,PI 664197,ND-NONOIL M1,United States,North America,Breeding line,Developed,confection,,,,1986,Q1,0.662396,2,admixed,0.6717,0.3283,0.1797,0.5478,0,0
+PI_517952,PI 517952,CM 604,Canada,North America,Breeding line,Donated,,,,,1988,Q2,0.935766,4,G1,0.2869,0.7131,0.1335,0.8526,0,0
+PI_518773,PI 518773,HA 335,United States,North America,Breeding line,Developed,,maintainer,line name,,1988,Q2,0.864596,4,G1,0.8641,0.1359,0.1291,0.6387,0,0
+PI_518775,PI 518775,HA 337,United States,North America,Breeding line,Developed,,maintainer,line name,,1988,Q2,0.99996,4,G1,0.2678,0.7322,0.1018,0.9046,0,0
+PI_518777,PI 518777,HA 339,United States,North America,Breeding line,Developed,,maintainer,line name,,1988,Q2,0.99996,4,G1,0.2904,0.7096,0.1176,0.8491,0,0
+PI_531338,PI 531338,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,44,1989,Q2,0.668505,4,G1,0.6172,0.3828,0.1936,0.5403,0,1
+PI_531342,PI 531342,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,44,1989,Q2,0.795553,4,G1,0.42,0.58,0.1731,0.6977,0,0
+PI_531343,PI 531343,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,41,1989,Q2,0.766187,4,G1,0.3644,0.6356,0.194,0.6744,0,0
+PI_539882,PI 539882,PET-PET-1741-1,United States,North America,Breeding line,Developed,,,,,1990,Q2,0.999952,4,G1,0.6934,0.3066,0.1164,0.7208,0,0
+PI_539899,PI 539899,PAR-1673-1,United States,North America,Breeding line,Developed,,,,,1990,Q2,0.909728,4,G1,0.4254,0.5746,0.1344,0.793,0,0
+PI_539900,PI 539900,PAR-1673-2,United States,North America,Breeding line,Developed,,,,,1990,Q2,0.962071,4,G1,0.6638,0.3362,0.1194,0.7158,0,0
+PI_539901,PI 539901,PAR-1084-1,United States,North America,Breeding line,Developed,,,,,1990,Q2,0.940235,4,G1,0.6302,0.3698,0.1294,0.7205,0,0
+PI_539903,PI 539903,PAR-1671-1,United States,North America,Breeding line,Developed,,,,,1990,Q2,0.99996,4,G1,0.543,0.457,0.1069,0.8021,0,1
+PI_599773,PI 599773,HA89,United States,North America,Breeding line,Developed,,maintainer,line name,41,1985,Q2,0.99996,4,G1,0.2171,0.7829,0.1072,0.9153,0,1
+PI_599774,PI 599774,HA 99,United States,North America,Breeding line,Developed,,maintainer,line name,41,1985,Q2,0.99996,4,G1,0.6563,0.3437,0.1032,0.7911,0,0
+PI_599776,PI 599776,HA 224,United States,North America,Breeding line,Developed,,maintainer,line name,35,1985,Q2,0.697101,4,G1,0.6139,0.3861,0.1554,0.6633,0,0
+PI_617026,PI 617026,BR1,United States,North America,Breeding line,Developed,,,,,2001,Q2,0.667783,4,admixed,0.924,0.076,0.1303,0.6342,0,0
+PI_617028,PI 617028,BR3,United States,North America,Breeding line,Developed,,,,,2001,Q2,0.648262,4,G1,0.8298,0.1702,0.1613,0.5155,0,1
+PI_617098,PI 617098,HA 425,United States,North America,Breeding line,Developed,,maintainer,narrative,,2001,Q2,0.800287,4,G1,0.8973,0.1027,0.1236,0.6501,0,0
+PI_633749,PI 633749,SURES-1,United States,North America,Breeding line,Developed,oilseed,maintainer,narrative,,2003,Q2,0.719166,4,G1,0.5405,0.4595,0.1533,0.6723,0,0
+PI_639165,PI 639165,HA 442,United States,North America,Breeding line,Developed,,maintainer,narrative,,2005,Q2,0.721034,4,G1,0.8545,0.1455,0.1401,0.6067,0,1
+PI_639168,PI 639168,HA 445,United States,North America,Breeding line,Developed,oilseed,maintainer,narrative,,2005,Q2,0.763316,4,G1,0.6124,0.3876,0.1386,0.6956,0,0
+PI_678787,PI 678787,HOLS1,United States,North America,Breeding line,Developed,oilseed,maintainer,narrative,,2016,Q2,0.658935,4,G1,0.9166,0.0834,0.148,0.5684,0,0
+PI_678789,PI 678789,HOLS3,United States,North America,Breeding line,Developed,oilseed,maintainer,narrative,,2016,Q2,0.72729,4,G1,0.5906,0.4094,0.1399,0.7074,0,0
+PI_287231,PI 287231,PEREDOVIK 48% OIL-YUGO,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1963,Q3,0.827983,5,G2,0.6378,0.3622,0.2689,0.3747,0,0
+PI_289622,PI 289622,PEREDOVIC,France,Western Europe,Cultivar,Collected,,,,39,1963,Q3,0.745457,5,G2,0.8459,0.1541,0.2911,0.2616,0,0
+PI_289624,PI 289624,No. 3,France,Western Europe,Cultivar,Collected,,,,33,1963,Q3,0.621954,5,G2,0.4727,0.5273,0.2583,0.4715,0,0
+PI_289625,PI 289625,No. 4,France,Western Europe,Cultivar,Collected,,,,37,1963,Q3,0.688909,5,G2,0.6994,0.3006,0.2948,0.2959,0,0
+PI_289627,PI 289627,VNIIMK 8931,France,Western Europe,Cultivar,Collected,,,,36,1963,Q3,0.669331,5,G2,0.6727,0.3273,0.2822,0.3195,0,0
+PI_294658,PI 294658,USSR SMENA 51% OIL-MN,United States,North America,Cultivar,Donated,,,,37,1964,Q3,0.850919,5,G2,0.7805,0.2195,0.2732,0.3039,0,0
+PI_297475,PI 297475,A 9345,France,Western Europe,Cultivar,Donated,,,,33,1964,Q3,0.704095,5,G2,0.7759,0.2241,0.2806,0.2887,0,0
+PI_297476,PI 297476,C 1957,France,Western Europe,Cultivar,Donated,,,,34,1964,Q3,0.716035,5,G2,0.6715,0.3285,0.2824,0.3243,0,0
+PI_297477,PI 297477,PEREDOVICK,France,Western Europe,Cultivar,Donated,,,,43,1964,Q3,0.651908,5,G2,0.3711,0.6289,0.2735,0.5063,0,0
+PI_297479,PI 297479,SMENA,France,Western Europe,Cultivar,Donated,,,,35,1964,Q3,0.72115,5,G2,0.6521,0.3479,0.27,0.3696,0,0
+PI_297480,PI 297480,V 8883,France,Western Europe,Cultivar,Donated,,,,35,1964,Q3,0.671916,5,G2,0.715,0.285,0.2832,0.295,0,0
+PI_297481,PI 297481,V 8931 MN 48% OIL,France,Western Europe,Cultivar,Donated,,,,35,1964,Q3,0.624446,5,G2,0.7052,0.2948,0.234,0.4097,0,1
+PI_307941,PI 307941,VNIIMK 6540,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,35,1965,Q3,0.835948,5,G2,0.3774,0.6226,0.2389,0.5948,0,0
+PI_343805,PI 343805,RUMAN RECORD,Romania,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1969,Q3,0.849898,5,G2,0.7622,0.2378,0.2723,0.3085,0,0
+PI_371935,PI 371935,ZARIA,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,45,1972,Q3,0.616829,5,G2,0.6561,0.3439,0.2833,0.3332,0,0
+PI_371936,PI 371936,VOSHOD,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,42,1972,Q3,0.727237,5,G2,0.8235,0.1765,0.2529,0.3354,0,1
+PI_372173,PI 372173,PEREDOVIK304 USSR60%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,44,1972,Q3,0.776572,5,G2,0.8121,0.1879,0.1942,0.4696,0,0
+PI_372174,PI 372174,PEREDOVIK308 USSR59%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,43,1972,Q3,0.785349,5,G2,0.6721,0.3279,0.2303,0.4365,0,0
+PI_372176,PI 372176,PEREDOVIK428 USSR59%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,40,1972,Q3,0.778593,5,G2,0.727,0.273,0.2227,0.4338,0,0
+PI_372178,PI 372178,PEREDOVIK473 USSR60%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,42,1972,Q3,0.725068,5,G2,0.4489,0.5511,0.2227,0.5728,0,0
+PI_379608,PI 379608,P-20,Serbia,Eastern Europe / W Asia,Cultivar,Donated,,,,41,1973,Q3,0.770876,5,G2,0.4899,0.5101,0.2514,0.4607,0,0
+PI_386320,PI 386320,L-2600,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,32,1974,Q3,0.618655,5,G2,0.4853,0.5147,0.1765,0.6582,0,0
+PI_386321,PI 386321,L-2610,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,27,1974,Q3,0.688365,5,G2,0.8811,0.1189,0.1741,0.5032,0,0
+PI_386323,PI 386323,L-2625,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,36,1974,Q3,0.85635,5,G2,0.7215,0.2785,0.1499,0.6372,0,0
+PI_402586,PI 402586,RIESTRA,Argentina,South America,Cultivar,Collected,,,,37,1973,Q3,0.671364,5,G2,0.7076,0.2924,0.2857,0.2915,0,0
+PI_431518,PI 431518,Romsun P-1384,Romania,Eastern Europe / W Asia,Breeding line,Collected,,,,31,1979,Q3,0.99996,5,G2,0.9103,0.0897,0.1447,0.5777,0,0
+PI_431519,PI 431519,Romsun V-337,Romania,Eastern Europe / W Asia,Breeding line,Collected,,,,29,1979,Q3,0.738177,5,G2,0.3655,0.6345,0.151,0.7808,0,0
+PI_431521,PI 431521,Romsun V-1352,Romania,Eastern Europe / W Asia,Breeding line,Collected,,,,29,1979,Q3,0.766115,5,G2,0.8946,0.1054,0.1591,0.544,0,0
+PI_431522,PI 431522,Romsun V-1646,Romania,Eastern Europe / W Asia,Breeding line,Collected,,,,34,1979,Q3,0.68618,5,G2,0.4293,0.5707,0.1681,0.7245,0,0
+PI_476357,PI 476357,Voronezskij-272,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,37,1981,Q3,0.703217,5,G2,0.9105,0.0895,0.2523,0.315,0,1
+PI_476358,PI 476358,Har'kovskij-50,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,37,1981,Q3,0.649927,5,G2,0.4863,0.5137,0.2476,0.4858,0,0
+PI_476658,PI 476658,Felix,Romania,Eastern Europe / W Asia,Breeding line,Donated,,,,41,1983,Q3,0.733051,5,G2,0.8853,0.1147,0.2558,0.3295,0,1
+PI_487194,PI 487194,,Italy,Western Europe,Cultivar,Donated,,,,44,1983,Q3,0.653576,5,G2,0.8753,0.1247,0.3156,0.1958,0,0
+PI_497244,PI 497244,,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,40,1985,Q3,0.758553,5,G2,0.6545,0.3455,0.2514,0.385,0,0
+PI_497245,PI 497245,,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,45,1985,Q3,0.744886,5,G2,0.6127,0.3873,0.2627,0.3962,0,0
+PI_497930,PI 497930,,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,42,1985,Q3,0.747743,5,G2,0.6262,0.3738,0.2151,0.4812,0,0
+PI_517950,PI 517950,CM 602,Canada,North America,Breeding line,Donated,,,,,1988,Q3,0.611064,5,G2,0.634,0.366,0.1585,0.635,0,0
+PI_517951,PI 517951,CM 603,Canada,North America,Breeding line,Donated,,,,,1988,Q3,0.616401,5,G2,0.6881,0.3119,0.1464,0.6393,0,0
+PI_531390,PI 531390,SMJAMA,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,,,,35,1989,Q3,0.99996,5,G2,0.8837,0.1163,0.1753,0.4881,0,0
+PI_536623,PI 536623,PEM S-R-88,Spain,Western Europe,Breeding line,Donated,oilseed,,,40,1989,Q3,0.642804,5,G2,0.6916,0.3084,0.2564,0.3588,0,0
+PI_599779,PI 599779,HA 277,United States,North America,Breeding line,Developed,,maintainer,line name,40,1985,Q3,0.739757,5,G2,0.6866,0.3134,0.1477,0.6471,0,0
+PI_599984,PI 599984,HA 821,United States,North America,Breeding line,Developed,oilseed,maintainer,line name,41,1985,Q3,0.99996,5,G2,0.8008,0.1992,0.1505,0.5824,0,0
+PI_633612,PI 633612,K-96,Spain,Western Europe,Breeding line,Developed,,restorer,narrative,,2003,Q3,0.811122,5,G2,0.4015,0.5985,0.16,0.7508,0,0
+PI_633613,PI 633613,L-86,Spain,Western Europe,Breeding line,Developed,,restorer,narrative,,2003,Q3,0.662658,5,G2,0.8996,0.1004,0.152,0.56,0,1
+PI_633614,PI 633614,P-96,Spain,Western Europe,Breeding line,Developed,,,,,2003,Q3,0.788324,5,G2,0.5585,0.4415,0.1525,0.6783,0,0
+PI_633615,PI 633615,R-96,Spain,Western Europe,Breeding line,Developed,,restorer,narrative,,2003,Q3,0.895139,5,G2,0.9179,0.0821,0.1663,0.5192,1,1
+PI_641057,PI 641057,AM-1,Spain,Western Europe,Breeding line,Developed,,,,,2005,Q3,0.811778,5,G2,0.8564,0.1436,0.1654,0.533,1,1
+PI_641058,PI 641058,AM-2,Spain,Western Europe,Breeding line,Developed,,,,,2005,Q3,0.9418,5,G2,0.9056,0.0944,0.1427,0.589,0,1
+PI_650337,PI 650337,,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,,,,43,1978,Q3,0.899465,5,G2,0.6028,0.3972,0.2357,0.4613,0,0
+PI_650338,PI 650338,,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,,,,46,1978,Q3,0.788341,5,G2,0.8495,0.1505,0.3034,0.2356,0,0
+PI_650339,PI 650339,,Hungary,Eastern Europe / W Asia,Cultivar,Collected,,,,38,1978,Q3,0.668843,5,G2,0.8378,0.1622,0.2165,0.4078,0,1
+PI_650342,PI 650342,,Italy,Western Europe,Cultivar,Collected,,,,39,1978,Q3,0.85307,5,G2,0.6588,0.3412,0.2487,0.3926,0,0
+PI_650343,PI 650343,,Romania,Eastern Europe / W Asia,Cultivar,Collected,,,,40,1978,Q3,0.867715,5,G2,0.7252,0.2748,0.2728,0.319,0,0
+PI_650344,PI 650344,,Spain,Western Europe,Cultivar,Collected,,,,41,1978,Q3,0.952611,5,G2,0.8358,0.1642,0.2565,0.3135,0,0
+PI_650350,PI 650350,780676,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,35,1985,Q3,0.854109,5,G2,0.7409,0.2591,0.1369,0.655,0,0
+PI_650352,PI 650352,780678,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,37,1985,Q3,0.866834,5,G2,0.8103,0.1897,0.139,0.6382,0,0
+PI_650408,PI 650408,,Germany,Western Europe,Cultivar,Donated,,,,31,1985,Q3,0.767522,5,G2,0.8835,0.1165,0.155,0.5513,0,1
+PI_650411,PI 650411,,Germany,Western Europe,Cultivar,Donated,,,,35,1985,Q3,0.703688,5,G2,0.6602,0.3398,0.1674,0.5953,0,0
+PI_650472,PI 650472,,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,32,1985,Q3,0.722586,5,G2,0.5242,0.4758,0.2264,0.5081,0,0
+PI_650473,PI 650473,803455,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,34,1985,Q3,0.790209,5,G2,0.7485,0.2515,0.1879,0.5204,0,1
+PI_650493,PI 650493,,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,37,1985,Q3,0.880266,5,G2,0.591,0.409,0.1774,0.6059,0,0
+PI_650497,PI 650497,803420,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,35,1985,Q3,0.644173,5,G2,0.61,0.39,0.1319,0.7223,0,0
+PI_650505,PI 650505,803430,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,33,1985,Q3,0.645317,5,G2,0.5387,0.4613,0.1813,0.6208,0,1
+PI_650534,PI 650534,VIR 107,Uncertain,Unknown,Cultivar,Donated,,,,41,1985,Q3,0.606394,5,G2,0.7442,0.2558,0.1659,0.5642,0,0
+PI_650540,PI 650540,803301,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,34,1985,Q3,0.67811,5,G2,0.7809,0.2191,0.1553,0.5807,0,1
+PI_650552,PI 650552,,United States,North America,Cultivar,Developed,,,,45,1985,Q3,0.874058,5,G2,0.742,0.258,0.1864,0.5324,0,0
+PI_650553,PI 650553,,United States,North America,Cultivar,Developed,,,,42,1985,Q3,0.781025,5,G2,0.6523,0.3477,0.1746,0.5792,0,0
+PI_650561,PI 650561,803343,United States,North America,Cultivar,Developed,,,,44,1985,Q3,0.784502,5,G2,0.7174,0.2826,0.2438,0.3906,0,0
+PI_650562,PI 650562,,United States,North America,Cultivar,Developed,,,,43,1985,Q3,0.770699,5,G2,0.6863,0.3137,0.2725,0.3481,0,0
+PI_650734,PI 650734,Smena,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,44,1992,Q3,0.88114,5,G2,0.7755,0.2245,0.2623,0.3284,0,0
+PI_650736,PI 650736,Rassvet,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,40,1992,Q3,0.77693,5,G2,0.4648,0.5352,0.1466,0.7261,0,0
+PI_650778,PI 650778,,Russian Federation,Eastern Europe / W Asia,Cultivar,Developed,,,,44,1992,Q3,0.789562,5,G2,0.6412,0.3588,0.1524,0.6393,0,0
+PI_650781,PI 650781,,Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,,,,43,1992,Q3,0.740203,5,G2,0.826,0.174,0.1544,0.5623,0,1
+PI_664181,PI 664181,CM 447,Canada,North America,Breeding line,Donated,,,,,1984,Q3,0.646869,5,G2,0.8862,0.1138,0.1481,0.5723,0,1
+PI_170393,PI 170393,No. 2008,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,25,1948,Q4,0.766534,3,G3,0.6478,0.3522,0.2239,0.4179,1,0
+PI_172907,PI 172907,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,28,1949,Q4,0.911051,3,G3,0.7245,0.2755,0.2114,0.4004,1,0
+PI_175732,PI 175732,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,26,1949,Q4,0.726061,3,G3,0.5475,0.4525,0.1984,0.5228,0,0
+PI_176974,PI 176974,LODGING RESISTANCE,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,25,1949,Q4,0.858831,3,G3,0.8596,0.1404,0.3017,0.2002,1,1
+PI_176975,PI 176975,KATMER,Turkey,Eastern Europe / W Asia,Cultivar,Collected,,,,21,1949,Q4,0.913955,3,G3,0.8292,0.1708,0.2368,0.334,0,0
+PI_193775,PI 193775,LODGING RESISTANCE,Ethiopia,Africa,Cultivar,Collected,,,,26,1951,Q4,0.932263,3,G3,0.7237,0.2763,0.2852,0.242,1,0
+PI_219649,PI 219649,LODGING RESISTANCE,Austria,Western Europe,Cultivar,Collected,,,,26,1954,Q4,0.785244,3,G3,0.7535,0.2465,0.2894,0.2383,1,0
+PI_226465,PI 226465,LODGING RESISTANCE,Iran,Asia / Oceania,Cultivar,Collected,,,,28,1955,Q4,0.622601,3,G3,0.6288,0.3712,0.2854,0.2976,1,0
+PI_432504,PI 432504,Hopi dye,United States,North America,Landrace,Collected,,,,31,1978,Q4,0.999958,3,G3,0.8021,0.1979,0.1792,0.4092,1,0
+PI_432507,PI 432507,Hopi dye,United States,North America,Landrace,Collected,,,,26,1978,Q4,0.953382,3,G3,0.4813,0.5187,0.1544,0.5359,0,0
+PI_432513,PI 432513,GN 0778,United States,North America,Landrace,Collected,,,,28,1978,Q4,0.679822,3,G3,0.8755,0.1245,0.2839,0.2246,1,1
+PI_432514,PI 432514,Havasupai,United States,North America,Landrace,Collected,,,,36,1978,Q4,0.886564,3,G3,0.4493,0.5507,0.2431,0.352,0,0
+PI_490319,PI 490319,Primrose,Poland,Eastern Europe / W Asia,Cultivar,Donated,,,,25,1982,Q4,0.724543,3,G3,0.7728,0.2272,0.2753,0.2165,1,1
+PI_497249,PI 497249,,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,29,1985,Q4,0.766007,3,G3,0.761,0.239,0.1772,0.4845,1,0
+PI_507889,PI 507889,3100391,Hungary,Eastern Europe / W Asia,Landrace,Collected,,,,23,1987,Q4,0.99996,3,G3,0.8362,0.1638,0.313,0.1765,1,0
+PI_507892,PI 507892,3100394,Hungary,Eastern Europe / W Asia,Landrace,Collected,,,,23,1987,Q4,0.99996,3,G3,0.7709,0.2291,0.2638,0.2678,1,0
+PI_507897,PI 507897,3100400,Hungary,Eastern Europe / W Asia,Landrace,Collected,,,,22,1987,Q4,0.916137,3,G3,0.6507,0.3493,0.2987,0.2298,1,0
+PI_531339,PI 531339,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,28,1989,Q4,0.99996,3,G3,0.866,0.134,0.2554,0.2718,1,1
+PI_531348,PI 531348,"FARMOSI ""A""",Hungary,Eastern Europe / W Asia,Landrace,Developed,,,,26,1989,Q4,0.80718,3,G3,0.7871,0.2129,0.1866,0.4561,1,1
+PI_531372,PI 531372,"NAGYKALLOI ""F""",Hungary,Eastern Europe / W Asia,Landrace,Developed,,,,27,1989,Q4,0.973454,3,G3,0.8054,0.1946,0.2554,0.2938,1,0
+PI_650511,PI 650511,803347,United States,North America,Landrace,Collected,,,,38,1985,Q4,0.64647,3,G3,0.6672,0.3328,0.158,0.554,1,0
+PI_650647,PI 650647,HSP-400,United States,North America,Cultivar,Collected,,,,,1986,Q4,0.703643,3,G3,0.7349,0.2651,0.1784,0.4513,0,0
+PI_650789,PI 650789,Hungarian #4,China,Asia / Oceania,Cultivar,Collected,,,,32,1995,Q4,0.891837,3,G3,0.7332,0.2668,0.3006,0.2016,1,0
+PI_650795,PI 650795,CLUJ,Romania,Eastern Europe / W Asia,Cultivar,Donated,,,,29,1995,Q4,0.796586,3,G3,0.6186,0.3814,0.2525,0.3519,1,0
+PI_497250,PI 497250,,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,34,1985,Q5,0.816796,1,admixed,0.7735,0.2265,0.1807,0.4865,1,1
+PI_536626,PI 536626,R-Sin-82,Spain,Western Europe,Breeding line,Donated,,restorer,narrative,44,1989,Q5,0.621764,1,G1,0.6634,0.3366,0.1457,0.6588,0,0
+PI_599760,PI 599760,RHA 275,United States,North America,Breeding line,Developed,,restorer,narrative,40,1985,Q5,0.952643,1,G1,0.6593,0.3407,0.1724,0.5823,0,0
+PI_599763,PI 599763,RHA 279,United States,North America,Breeding line,Developed,,restorer,narrative,43,1985,Q5,0.99996,1,G1,0.841,0.159,0.1697,0.5156,0,0
+PI_599768,PI 599768,RHA 801,United States,North America,Breeding line,Developed,oilseed,restorer,narrative,44,1985,Q5,0.894425,1,G1,0.5742,0.4258,0.1769,0.5917,0,0
+PI_599786,PI 599786,RHA 271,United States,North America,Breeding line,Developed,,restorer,narrative,49,1985,Q5,0.999954,1,G1,0.7365,0.2635,0.1704,0.5455,0,0
+PI_599787,PI 599787,RHA 272,United States,North America,Breeding line,Developed,,restorer,narrative,43,1985,Q5,0.999957,1,G1,0.7355,0.2645,0.169,0.5539,0,0
+PI_607921,PI 607921,R-188,United States,North America,Breeding line,Developed,,,,,1999,Q5,0.676251,1,G1,0.8706,0.1294,0.1686,0.5158,0,0
+PI_631496,PI 631496,,Spain,Western Europe,Breeding line,Developed,oilseed,restorer,narrative,,2002,Q5,0.999956,1,G1,0.8308,0.1692,0.1747,0.5031,0,0
+PI_650363,PI 650363,780722,France,Western Europe,Cultivar,Collected,,,,37,1985,Q5,0.601623,1,admixed,0.7092,0.2908,0.1739,0.5228,0,0
+PI_673341,PI 673341,CM 592,Canada,North America,Breeding line,Donated,,restorer,narrative,,1984,Q5,0.614051,1,G1,0.9055,0.0945,0.1654,0.518,1,1
+PI_253416,PI 253416,MN-31% OIL,Spain,Western Europe,Cultivar,Collected,,,,29,1958,admixed,0.443998,2,admixed,0.4506,0.5494,0.246,0.4742,0,0
+PI_253776,PI 253776,LODGING RESISTANCE,Iraq,Asia / Oceania,Cultivar,Collected,,,,31,1958,admixed,0.468281,2,G3,0.7491,0.2509,0.297,0.241,1,1
+PI_257642,PI 257642,VNIIMK 1646 MN-42% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,38,1959,admixed,0.595851,5,G2,0.4109,0.5891,0.2573,0.5146,0,0
+PI_257643,PI 257643,VNIIMK 3519 CANA-37%OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,28,1959,admixed,0.419563,5,G2,0.2772,0.7228,0.2238,0.6724,0,0
+PI_262515,PI 262515,BULG,Bulgaria,Eastern Europe / W Asia,Cultivar,Collected,,,,33,1959,admixed,0.501436,5,G2,0.5171,0.4829,0.2615,0.4347,0,0
+PI_262520,PI 262520,USSR JDANOWSKII 8281,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,35,1959,admixed,0.484525,2,G2,0.527,0.473,0.2791,0.3921,0,0
+PI_265099,PI 265099,VNIIMK 1646 4 MOTH RES,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,37,1960,admixed,0.571851,5,G2,0.8579,0.1421,0.3148,0.2181,0,0
+PI_265103,PI 265103,VNIIMK 8883 MOTH RES,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,32,1960,admixed,0.499133,5,G2,0.8848,0.1152,0.2133,0.4028,1,1
+PI_291407,PI 291407,HYBRIDE LARAGUE,Hungary,Eastern Europe / W Asia,Cultivar,Donated,,,,24,1963,admixed,0.34547,2,admixed,0.3237,0.6763,0.2506,0.5614,0,0
+PI_291411,PI 291411,VNIIMK 8883 49% OIL-YUGO,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Donated,,,,34,1963,admixed,0.375972,5,G2,0.5012,0.4988,0.2791,0.4171,0,0
+PI_296292,PI 296292,SHORT RUSSIAN MN 34%OIL,South Africa,Africa,Cultivar,Donated,,,,27,1964,admixed,0.401582,2,admixed,0.3918,0.6082,0.2771,0.4412,0,0
+PI_298632,PI 298632,SARATOVSKI MN 49% OIL,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,39,1964,admixed,0.576202,2,G2,0.6003,0.3997,0.2783,0.3528,0,0
+PI_378893,PI 378893,CORDOBES INTA,Argentina,South America,Cultivar,Donated,,,,31,1973,admixed,0.594381,2,admixed,0.681,0.319,0.2924,0.2517,0,1
+PI_386322,PI 386322,L-2621,Ukraine,Eastern Europe / W Asia,Cultivar,Collected,,,,32,1974,admixed,0.528819,5,G2,0.746,0.254,0.166,0.5633,0,0
+PI_402584,PI 402584,CAMBA,Argentina,South America,Cultivar,Collected,,,,36,1973,admixed,0.568171,5,G2,0.7235,0.2765,0.2857,0.2928,0,0
+PI_406022,PI 406022,KN 100 SD VERY LONG,Iran,Asia / Oceania,Cultivar,Collected,,,,25,1975,admixed,0.542414,2,admixed,0.6499,0.3501,0.2825,0.3062,0,1
+PI_471077,PI 471077,,Former Serbia and Montenegro,Eastern Europe / W Asia,Breeding line,Collected,,,,38,1982,admixed,0.400252,5,admixed,0.7047,0.2953,0.2321,0.4012,0,0
+PI_476759,PI 476759,,Bulgaria,Eastern Europe / W Asia,Cultivar,Donated,,,,37,1983,admixed,0.534015,1,admixed,0.7191,0.2809,0.2421,0.3955,0,0
+PI_476853,PI 476853,,United States,North America,Cultivar,Developed,,,,23,1983,admixed,0.576767,2,admixed,0.6956,0.3044,0.3162,0.226,1,1
+PI_496263,PI 496263,Damaya,China,Asia / Oceania,Landrace,Donated,,,,24,1985,admixed,0.550852,2,G2,0.667,0.333,0.1949,0.5109,0,1
+PI_497243,PI 497243,,Former Soviet Union,Eastern Europe / W Asia,Cultivar,Collected,,,,34,1985,admixed,0.431326,5,G2,0.6654,0.3346,0.2864,0.3145,0,0
+PI_517955,PI 517955,CM 607,Canada,North America,Breeding line,Donated,,,,,1988,admixed,0.500971,5,G2,0.6816,0.3184,0.1539,0.6224,0,0
+PI_517956,PI 517956,CM 608,Canada,North America,Breeding line,Donated,,restorer,narrative,,1988,admixed,0.363702,1,admixed,0.7484,0.2516,0.1599,0.5843,0,0
+PI_517957,PI 517957,CM 609,Canada,North America,Breeding line,Donated,,restorer,narrative,,1988,admixed,0.395391,1,admixed,0.7247,0.2753,0.1655,0.5815,0,0
+PI_517958,PI 517958,CM 610,Canada,North America,Breeding line,Donated,,restorer,narrative,,1988,admixed,0.440188,1,G1,0.3543,0.6457,0.176,0.7421,0,0
+PI_518653,PI 518653,CM 596,Canada,North America,Breeding line,Donated,,restorer,narrative,,1988,admixed,0.582026,1,G1,0.3075,0.6925,0.168,0.7871,0,0
+PI_531353,PI 531353,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,42,1989,admixed,0.558797,5,G2,0.4961,0.5039,0.2459,0.4906,0,0
+PI_531360,PI 531360,,Hungary,Eastern Europe / W Asia,Cultivar,Developed,,,,39,1989,admixed,0.359072,1,G1,0.5681,0.4319,0.1943,0.5877,0,0
+PI_531393,PI 531393,,France,Western Europe,Cultivar,Collected,,,,45,1989,admixed,0.516748,1,G1,0.5612,0.4388,0.1592,0.6502,0,0
+PI_531503,PI 531503,ID-LRLYC,United States,North America,Breeding line,Donated,,,,45,1989,admixed,0.423949,1,admixed,0.6006,0.3994,0.1758,0.6061,0,0
+PI_536624,PI 536624,B-Sin-82,Spain,Western Europe,Breeding line,Donated,oilseed,,,41,1989,admixed,0.413436,5,admixed,0.8132,0.1868,0.3092,0.2286,0,0
+PI_536625,PI 536625,B-FSS-88,Spain,Western Europe,Breeding line,Donated,oilseed,restorer,narrative,41,1989,admixed,0.492363,5,admixed,0.2891,0.7109,0.2239,0.6542,0,0
+PI_536629,PI 536629,F-Yu-82,Spain,Western Europe,Breeding line,Donated,,restorer,narrative,46,1989,admixed,0.35964,1,G1,0.5842,0.4158,0.2295,0.4642,0,0
+PI_536630,PI 536630,R-C-SE-82,Spain,Western Europe,Breeding line,Donated,,restorer,narrative,42,1989,admixed,0.469822,1,G1,0.5007,0.4993,0.2021,0.5665,0,0
+PI_546356,PI 546356,CM 619,Canada,North America,Breeding line,Developed,,restorer,narrative,37,1991,admixed,0.556417,1,G1,0.5631,0.4369,0.1681,0.645,0,0
+PI_546358,PI 546358,CM 621,Canada,North America,Breeding line,Developed,,restorer,narrative,53,1991,admixed,0.545961,4,G1,0.7872,0.2128,0.1394,0.6377,0,0
+PI_566825,PI 566825,CM 595,Canada,North America,Breeding line,Developed,,,,39,1993,admixed,0.370091,5,G2,0.4541,0.5459,0.1655,0.7084,0,0
+PI_566830,PI 566830,CM 632,Canada,North America,Breeding line,Developed,,restorer,narrative,35,1993,admixed,0.365738,1,G1,0.8059,0.1941,0.162,0.5483,0,0
+PI_599754,PI 599754,RHA 265,United States,North America,Breeding line,Developed,,restorer,narrative,38,1985,admixed,0.571683,1,admixed,0.825,0.175,0.1644,0.5391,0,0
+PI_599755,PI 599755,RHA 266,United States,North America,Breeding line,Developed,,restorer,narrative,36,1985,admixed,0.577208,1,G1,0.6365,0.3635,0.1639,0.614,0,0
+PI_599775,PI 599775,HA 124,United States,North America,Breeding line,Developed,,maintainer,line name,35,1985,admixed,0.566972,5,G2,0.6702,0.3298,0.1513,0.6231,0,0
+PI_599777,PI 599777,HA 232,United States,North America,Breeding line,Developed,,maintainer,line name,38,1985,admixed,0.568965,5,G2,0.4038,0.5962,0.1641,0.7187,0,0
+PI_599778,PI 599778,HA 234,United States,North America,Breeding line,Developed,,maintainer,line name,40,1985,admixed,0.537958,5,G2,0.7878,0.2122,0.1564,0.5625,1,1
+PI_600716,PI 600716,CO-PB 121,Spain,Western Europe,Landrace,Collected,,,,43,1990,admixed,0.432443,2,G2,0.6918,0.3082,0.1811,0.516,0,0
+PI_600987,PI 600987,,United States,North America,Cultivar,Developed,,,,35,1983,admixed,0.399562,5,G2,0.5768,0.4232,0.1652,0.6376,0,0
+PI_607920,PI 607920,R-185,United States,North America,Breeding line,Developed,,,,,1999,admixed,0.524135,1,G1,0.7034,0.2966,0.1664,0.579,0,0
+PI_607922,PI 607922,R-190,United States,North America,Breeding line,Developed,,,,,1999,admixed,0.438956,1,admixed,0.8765,0.1235,0.1864,0.473,1,1
+PI_607924,PI 607924,R-202,United States,North America,Breeding line,Developed,,,,,1999,admixed,0.558114,1,admixed,0.6789,0.3211,0.1799,0.5506,0,0
+PI_607925,PI 607925,R-206,United States,North America,Breeding line,Developed,,,,,1999,admixed,0.349081,1,admixed,0.4388,0.5612,0.1912,0.651,0,0
+PI_617027,PI 617027,BR2,United States,North America,Breeding line,Developed,,,,,2001,admixed,0.597303,4,admixed,0.567,0.433,0.1292,0.7314,0,0
+PI_617029,PI 617029,BR4,United States,North America,Breeding line,Developed,,,,,2001,admixed,0.581819,4,admixed,0.3436,0.6564,0.1332,0.8401,0,0
+PI_617100,PI 617100,RHA 427,United States,North America,Breeding line,Developed,,restorer,narrative,,2001,admixed,0.435842,1,G1,0.5382,0.4618,0.151,0.6701,0,0
+PI_632340,PI 632340,HA 431,United States,North America,Breeding line,Developed,oilseed,maintainer,narrative,,2002,admixed,0.526847,5,admixed,0.9124,0.0876,0.1539,0.547,0,0
+PI_633750,PI 633750,SURES-2,United States,North America,Breeding line,Developed,oilseed,restorer,narrative,,2003,admixed,0.454593,1,G1,0.7165,0.2835,0.1583,0.5765,0,0
+PI_639166,PI 639166,RHA 443,United States,North America,Breeding line,Developed,oilseed,restorer,narrative,,2005,admixed,0.533243,1,G1,0.5867,0.4133,0.1428,0.6426,0,0
+PI_641059,PI 641059,AM-3,Spain,Western Europe,Breeding line,Developed,,,,,2005,admixed,0.394439,5,admixed,0.6461,0.3539,0.1578,0.6379,0,0
+PI_642773,PI 642773,RHA 454,United States,North America,Breeding line,Developed,,restorer,narrative,,2006,admixed,0.536975,1,G1,0.664,0.336,0.1358,0.6704,0,0
+PI_650362,PI 650362,780721,France,Western Europe,Cultivar,Collected,,,,34,1985,admixed,0.442036,5,G2,0.3294,0.6706,0.1677,0.7533,0,0
+PI_650364,PI 650364,,Germany,Western Europe,Cultivar,Donated,,,,31,1985,admixed,0.458799,5,G2,0.8241,0.1759,0.1533,0.5646,0,0
+PI_650368,PI 650368,,Germany,Western Europe,Cultivar,Donated,,,,27,1985,admixed,0.448213,2,admixed,0.3976,0.6024,0.155,0.701,0,0
+PI_650370,PI 650370,,Germany,Western Europe,Cultivar,Donated,,,,30,1985,admixed,0.442178,5,G2,0.471,0.529,0.187,0.6546,0,0
+PI_650375,PI 650375,,Germany,Western Europe,Cultivar,Donated,,,,28,1985,admixed,0.523115,2,admixed,0.3827,0.6173,0.1674,0.7023,0,0
+PI_650379,PI 650379,,Germany,Western Europe,Cultivar,Donated,,,,25,1985,admixed,0.446903,2,admixed,0.3349,0.6651,0.1904,0.6713,0,0
+PI_650381,PI 650381,,Germany,Western Europe,Cultivar,Donated,,,,18,1985,admixed,0.582553,2,G2,0.5483,0.4517,0.1781,0.5967,0,0
+PI_650385,PI 650385,Vniimk 1646,Russian Federation,Eastern Europe / W Asia,Cultivar,Collected,,,,37,1985,admixed,0.516343,5,G2,0.906,0.094,0.1636,0.5276,0,0
+PI_650396,PI 650396,,Argentina,South America,Cultivar,Donated,,,,42,1985,admixed,0.411125,1,admixed,0.694,0.306,0.1853,0.5246,0,0
+PI_650406,PI 650406,,Germany,Western Europe,Cultivar,Donated,,,,30,1985,admixed,0.457625,2,admixed,0.4607,0.5393,0.1729,0.635,0,0
+PI_650407,PI 650407,,Germany,Western Europe,Breeding line,Donated,,,,17,1985,admixed,0.499362,2,G3,0.8356,0.1644,0.1736,0.4776,1,1
+PI_650412,PI 650412,,Germany,Western Europe,Cultivar,Donated,,,,27,1985,admixed,0.5039,5,G2,0.8772,0.1228,0.1613,0.522,0,1
+PI_650442,PI 650442,,Germany,Western Europe,Cultivar,Donated,,,,17,1985,admixed,0.537924,4,G1,0.5742,0.4258,0.1899,0.5678,0,0
+PI_650443,PI 650443,,Germany,Western Europe,Cultivar,Donated,,,,28,1985,admixed,0.498259,2,G3,0.669,0.331,0.183,0.503,1,1
+PI_650471,PI 650471,,Romania,Eastern Europe / W Asia,Cultivar,Developed,,,,36,1985,admixed,0.506494,5,admixed,0.5096,0.4904,0.2489,0.4567,0,0
+PI_650533,PI 650533,VIR 101,Uncertain,Unknown,Cultivar,Collected,,,,32,1985,admixed,0.397976,5,admixed,0.576,0.424,0.185,0.5948,0,0
+PI_650538,PI 650538,813140,Argentina,South America,Cultivar,Developed,,,,32,1985,admixed,0.509914,2,admixed,0.5359,0.4641,0.1745,0.6071,0,0
+PI_650539,PI 650539,Pergamino 71/538,Argentina,South America,Cultivar,Developed,,,,27,1985,admixed,0.357542,2,admixed,0.6955,0.3045,0.1731,0.5232,1,1
+PI_650655,PI 650655,Ames 10099,China,Asia / Oceania,Cultivar,Developed,,,,28,1989,admixed,0.591923,2,admixed,0.7318,0.2682,0.1854,0.488,1,1
+PI_650664,PI 650664,Ames 10108,China,Asia / Oceania,Cultivar,Developed,,,,31,1989,admixed,0.36543,2,admixed,0.361,0.639,0.2428,0.5555,0,0
+PI_650720,PI 650720,CO-PB 120,Spain,Western Europe,Landrace,Collected,,,,25,1990,admixed,0.466861,2,admixed,0.7691,0.2309,0.2367,0.3556,1,1
+PI_650782,PI 650782,,Russian Federation,Eastern Europe / W Asia,Cultivar,Developed,,,,39,1992,admixed,0.508272,5,G2,0.625,0.375,0.2895,0.2948,0,0
+PI_650785,PI 650785,,Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,,,,,1992,admixed,0.561172,5,G2,0.7391,0.2609,0.191,0.5027,0,0
+PI_650798,PI 650798,,Argentina,South America,Cultivar,Donated,,,,38,1995,admixed,0.472079,5,admixed,0.7649,0.2351,0.169,0.5195,1,1
+PI_650811,PI 650811,,Argentina,South America,Cultivar,Donated,,,,40,1995,admixed,0.294303,2,admixed,0.4623,0.5377,0.2593,0.4367,0,0
+PI_650816,PI 650816,,Argentina,South America,Cultivar,Donated,,,,36,1995,admixed,0.538113,2,admixed,0.7953,0.2047,0.2185,0.4135,0,0
+PI_650830,PI 650830,,Argentina,South America,Cultivar,Donated,,,,34,1995,admixed,0.48488,2,admixed,0.8166,0.1834,0.1612,0.5376,0,1
+PI_664149,PI 664149,,Bulgaria,Eastern Europe / W Asia,Cultivar,Developed,,,,37,1992,admixed,0.539798,5,admixed,0.46,0.54,0.2434,0.5148,0,0
+PI_664161,PI 664161,TAM-CRD HA 60,United States,North America,Cultivar,Donated,,,,,1969,admixed,0.489106,5,G2,0.9009,0.0991,0.1652,0.4987,1,1
+PI_664164,PI 664164,405A,United States,North America,Breeding line,Donated,,maintainer,narrative,,1978,admixed,0.555218,2,G2,0.5787,0.4213,0.3131,0.2914,0,0
+PI_664190,PI 664190,ND-NONOIL 2,United States,North America,Breeding line,Developed,confection,,,,1986,admixed,0.519599,2,admixed,0.5756,0.4244,0.2657,0.4004,0,0
+PI_667184,PI 667184,RHA 468,United States,North America,Cultivar,Developed,oilseed,restorer,narrative,,2013,admixed,0.580879,1,G1,0.8763,0.1237,0.1657,0.5086,1,1
+PI_673345,PI 673345,SDHAR1-HO84,United States,North America,Breeding line,Donated,,restorer,narrative,,1986,admixed,0.518521,1,admixed,0.7397,0.2603,0.2634,0.3424,0,0

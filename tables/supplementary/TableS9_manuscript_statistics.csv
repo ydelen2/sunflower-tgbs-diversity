@@ -7,3 +7,19 @@ Genomic inbreeding against missing rate,Pearson correlation,0.506,272,,2.94e-19,
 Genomic inbreeding against missing rate,Regression slope,0.523,1,272,2.94e-19,274,simple linear regression
 "Genomic inbreeding, cluster adjusted for missing rate",Cluster,27.78,5,267,1.24e-22,274,"analysis of covariance, missing rate as covariate"
 "Genomic inbreeding, cluster adjusted for missing rate",Missing rate slope,0.392,1,267,4.79e-15,274,"slope within clusters, from the same model"
+PC1 against seed oil content within groups,All accessions with a recorded value,-0.65396,215,,0,217,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Without Q4,-0.63277,192,,0,194,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Assigned accessions,-0.70216,148,,0,150,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Admixed accessions,-0.59946,65,,0,67,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Cultivar,-0.65158,163,,0,165,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Breeding line,-0.48263,34,,0.00287,36,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Landrace,-0.33527,14,,0.20428,16,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Within Q1,0.02564,46,,0.86264,48,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Within Q3,0.17812,63,,0.15574,65,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Within Q4,-0.27509,21,,0.20395,23,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Within Q5,-0.73317,6,,0.0385,8,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,Pooled within the six groups (residuals from group means),-0.39474,215,,0,217,"Pearson correlation, two-sided test of zero correlation"
+PC1 against seed oil content within groups,"R2, PC1 alone",0.42766,,,,217,coefficient of determination
+PC1 against seed oil content within groups,"R2, group alone",0.40086,,,,217,coefficient of determination
+PC1 against seed oil content within groups,"R2, group and PC1",0.49422,,,,217,coefficient of determination
+PC1 against seed oil content within groups,PC1 added to group (partial F test),38.76113,,,0,217,"partial F test, PC1 added to the group means"

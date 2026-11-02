@@ -305,6 +305,26 @@ if (have(f_ld)) {
   save_fig(p, "Fig9_ld_decay", 7.5, 5)
   p2 <- p + scale_x_log10() + labs(x = "Physical distance (kb, log scale)")
   save_fig(p2, "Fig9b_ld_decay_log", 7.5, 5)
+
+  ## panel (c): each cluster curve as a ratio to the whole-panel curve, with the
+  ## band spanned by ten random subsets of 23 accessions (R/24, section J)
+  ref <- emp[SET == "All accessions", .(DISTANCE_KB, R2_ALL = R2)]
+  rat <- merge(emp[SET != "All accessions"], ref, by = "DISTANCE_KB")[, RATIO := R2 / R2_ALL]
+  p3 <- ggplot(rat[DISTANCE_KB <= 500], aes(DISTANCE_KB, RATIO, colour = SET))
+  f_sub <- list.files(TAB, "review_ld_subsets_binned\\.csv$", full.names = TRUE)
+  if (length(f_sub) == 1L) {
+    sb <- merge(fread(f_sub), ref, by = "DISTANCE_KB")[, RATIO := R2 / R2_ALL]
+    band <- sb[DISTANCE_KB <= 500, .(LO = min(RATIO), HI = max(RATIO)), by = DISTANCE_KB]
+    p3 <- p3 + geom_ribbon(data = band, aes(x = DISTANCE_KB, ymin = LO, ymax = HI),
+                           inherit.aes = FALSE, fill = "grey80", alpha = .6)
+  }
+  p3 <- p3 + geom_line(linewidth = .7) +
+    geom_hline(yintercept = 1, linetype = 2, colour = "grey40") +
+    scale_colour_manual(values = CLUSTER_COLS, name = NULL) +
+    labs(x = "Physical distance (kb)",
+         y = expression("Ratio to the whole-panel" ~ r^2)) +
+    theme_pub(FS[["fig5"]])
+  save_fig(p3, "Fig9c_ld_ratio", 7.5, 5)
 }
 
 ## ---- Figure S2: kinship ---------------------------------------------------------

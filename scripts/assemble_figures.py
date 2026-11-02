@@ -120,9 +120,25 @@ def assemble_figure3(src, out):
 
 
 def assemble_figure6(src, out):
-    """LD decay on a linear axis (a) and on a logarithmic axis (b)."""
-    return assemble_two_panels(src, out, "Fig9_ld_decay.png", "Fig9b_ld_decay_log.png",
-                               letter_px=LETTER_PX["ld"])
+    """LD decay on a linear axis (a), on a logarithmic axis (b) and as a ratio to
+    the whole-panel curve (c), the third panel centred below the first two."""
+    names = ["Fig9_ld_decay.png", "Fig9b_ld_decay_log.png", "Fig9c_ld_ratio.png"]
+    if not os.path.exists(os.path.join(src, names[2])):
+        return assemble_two_panels(src, out, names[0], names[1], letter_px=LETTER_PX["ld"])
+    row_height = 2000
+    ims = [scale_to_height(Image.open(os.path.join(src, n)), row_height) for n in names]
+    font = load_font(LETTER_PX["ld"])
+    band = label_band(font)
+    width = 2 * MARGIN + ims[0].width + GAP + ims[1].width
+    height = 2 * MARGIN + 2 * (band + row_height) + GAP
+    canvas = Image.new("RGB", (width, height), "white")
+    draw = ImageDraw.Draw(canvas)
+    paste_panel(canvas, draw, ims[0], MARGIN, MARGIN, "a", font)
+    paste_panel(canvas, draw, ims[1], MARGIN + ims[0].width + GAP, MARGIN, "b", font)
+    x3 = (width - ims[2].width) // 2
+    paste_panel(canvas, draw, ims[2], x3, MARGIN + band + row_height + GAP, "c", font)
+    canvas.save(out, dpi=(400, 400))
+    return canvas.size
 
 
 def assemble_qc_panels(src, out, cell_height=1500):

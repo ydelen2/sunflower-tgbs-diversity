@@ -1,0 +1,12 @@
+DISTANCE_KB,SHARE_OF_GENOME_WITHIN_DISTANCE,NOTE
+5,0.1609,share of assembled chromosome length within the distance of a retained marker
+10,0.2861,share of assembled chromosome length within the distance of a retained marker
+25,0.5456,share of assembled chromosome length within the distance of a retained marker
+50,0.7695,share of assembled chromosome length within the distance of a retained marker
+100,0.9289,share of assembled chromosome length within the distance of a retained marker
+200,0.9891,share of assembled chromosome length within the distance of a retained marker
+500,0.9995,share of assembled chromosome length within the distance of a retained marker
+,0.031,"median spacing between adjacent markers, kb"
+,12.8556,"mean spacing, kb"
+,40.2176,"90th percentile of spacing, kb"
+,1583.3,"largest gap, kb"

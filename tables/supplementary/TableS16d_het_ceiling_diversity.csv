@@ -1,0 +1,4 @@
+GROUP,N,SITES,N_SITES,HO,HE,FIS
+All accessions,274,all called sites,233264,0.1957,0.276,0.2911
+All accessions,274,sites polymorphic within the group,233264,0.1957,0.276,0.2911
+"All accessions, ceiling 0.20",274,sites with heterozygous call rate <= 0.20,147889,0.1103,0.2451,0.5498

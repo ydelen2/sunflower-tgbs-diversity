@@ -1,0 +1,11 @@
+FACTOR,N,LEVELS,PSEUDO_F,R2,P
+"Region, all accessions in the five regions with at least ten",269,5,4.2233,0.0601,0.001
+"Region, assigned accessions",181,5,3.5229,0.0741,0.001
+"Region, admixed accessions",88,5,2.2472,0.0977,0.001
+"Region, collected material",100,5,2.7507,0.1038,0.001
+Region within cultivars,164,5,2.1894,0.0522,0.001
+Improvement status,274,3,8.1488,0.0567,0.001
+Market type (labeled accessions),274,3,2.7394,0.0198,0.001
+Heterotic group (labeled accessions),274,3,6.2734,0.0442,0.001
+"Ancestry cluster, assigned accessions",184,5,14.0255,0.2386,0.001
+Ancestry cluster with admixed as a sixth group,274,6,10.6939,0.1663,0.001
