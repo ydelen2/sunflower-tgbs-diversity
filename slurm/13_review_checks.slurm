@@ -71,6 +71,8 @@ fi
 
 # 7. discordance between the replicate libraries by genotype class and depth
 python3 scripts/replicate_discordance.py "$RAW/Sunflower.MCR50.AlleleCounts" "$PL/sunflower.bim" "$OUT/09_tables"
+# read depth and allele balance at the sites removed by the heterozygous call rate ceiling
+python3 scripts/site_depth_by_filter.py "$RAW/Sunflower.MCR50.AlleleCounts" "$RAW/Sunflower.MCR50.snps.genotype.txt" "$OUT/01_qc/keep_samples.txt" "$OUT/09_tables"
 
 # 8. core subset benchmark and the summary of every check above
 Rscript R/22_core_benchmark.R

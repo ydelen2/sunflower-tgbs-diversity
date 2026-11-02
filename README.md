@@ -94,8 +94,10 @@ cd $PROJ/analysis && bash run_all.sh
 | `R/24_review_round1.R` | steps 02 to 07, 13 and 14, `R/12`, `R/16` | the tables added at peer review: Table 1 (unified diversity indices, receipt years), Table 2 (random subsets), Tables S1, S9, S10b, S15b (extended), S3b to S3e, S5c, S6c, S7c, S10d to S10f, S11d, S13b to S13e, S14c, S16d |
 
 `scripts/replicate_discordance.py` compares the three libraries of the control
-accession on the delivered allele counts and writes Tables S3b and S3c; step 13
-calls it.
+accession on the delivered allele counts and writes Tables S3b and S3c, and
+`scripts/site_depth_by_filter.py` compares read depth and allele balance at the
+sites removed by the heterozygous call rate ceiling with the retained sites
+(Table S3f); step 13 calls both.
 
 `R/12_admixture.R` writes the cluster assignment of every accession, including
 those below the ancestry threshold of 0.60, which are labeled admixed. Steps
