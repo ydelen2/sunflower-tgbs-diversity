@@ -11,15 +11,15 @@ the HanXRQr2.0-SUNRISE assembly (GenBank GCF_002127325.2).
 |---|---|
 | `config.sh` | paths, filtering thresholds and the ADMIXTURE grid; every script sources it |
 | `run_all.sh` | submits the cluster steps in dependency order |
-| `slurm/` | batch steps 01 to 14 |
-| `R/` | analysis and figure steps 00 to 24 |
-| `scripts/` | genotype conversion, per-accession statistics, GRIN retrieval, multi-panel figure assembly, replicate library discordance |
+| `slurm/` | batch steps 01 to 17 |
+| `R/` | analysis and figure steps 00 to 25 |
+| `scripts/` | genotype conversion, per-accession statistics, GRIN retrieval, multi-panel figure assembly, replicate library discordance, read depth by site class, genotype masking, kinship-corrected linkage disequilibrium |
 | `env/environment.yml` | conda environment |
 | `ref/` | chromosome names and lengths of the reference assembly |
 | `metadata/` | GRIN passport, descriptor and type records, sample lists, per-accession quality summary |
-| `data/` | nine large per-accession or per-window result files |
+| `data/` | nine large per-accession or per-window result files, and under `data/genotypes/` the filtered genotype matrices (VCF, non-imputed and imputed) |
 | `tables/main/` | the three main tables of the manuscript |
-| `tables/supplementary/` | the 16 supplementary tables; Tables S3, S5, S6, S7, S10, S11, S13, S14, S15 and S16 hold further blocks, in the files ending in `b` to `f` |
+| `tables/supplementary/` | the 16 supplementary tables; Tables S3, S5, S6, S7, S10, S11, S13, S14, S15 and S16 hold further blocks, in the files ending in `b` to `g` |
 | `tables/additional/` | replicate concordance, duplicate pairs and the imputation check of the principal components, whose values are given in the text |
 
 ## Input not included here
@@ -126,6 +126,8 @@ those below the ancestry threshold of 0.60, which are labeled admixed. Steps
 | `data/Data7_ROH.csv` | runs of homozygosity per accession |
 | `data/Data8_windowed_pi.csv` | nucleotide diversity per 1-Mb window and cluster |
 | `data/Data9_LD_binned_empirical.csv` | mean r-squared and marker pair counts in 2-kb bins |
+| `data/genotypes/sunflower.filtered.vcf.gz` | the filtered genotype calls, 233,264 sites by 274 accessions, non-imputed, with tabix index |
+| `data/genotypes/sunflower.filtered.imputed.vcf.gz` | the same sites and accessions from the imputed and phased set of the provider (Beagle 5.1), with tabix index |
 
 ## Software
 

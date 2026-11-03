@@ -1,0 +1,14 @@
+{
+  "title": "Genome-wide diversity and population structure of 274 sunflower (Helianthus annuus L.) accessions: analysis code and data",
+  "upload_type": "dataset",
+  "description": "Analysis code, filtered genotype matrices (233,264 SNPs by 274 accessions, non-imputed and imputed, VCF), derived tables and data files for a study of genetic diversity and population structure in 274 cultivated sunflower accessions of the USDA National Plant Germplasm System, genotyped by tunable genotyping by sequencing against the HanXRQr2.0-SUNRISE assembly. The repository holds the Slurm job scripts, R and Python code, the software environment specification, the parameter settings, the supplementary tables and the data files of the manuscript.",
+  "creators": [
+    {"name": "Delen, Yavuz", "affiliation": "Field Crops Central Research Institute, Ankara, Turkiye; University of Nebraska-Lincoln"},
+    {"name": "Palali-Delen, Semra", "affiliation": "Field Crops Central Research Institute, Ankara, Turkiye; University of Nebraska-Lincoln"},
+    {"name": "Dweikat, Ismail", "affiliation": "Department of Agronomy and Horticulture, University of Nebraska-Lincoln"}
+  ],
+  "keywords": ["sunflower", "Helianthus annuus", "genotyping by sequencing", "germplasm collection", "population structure", "heterotic groups", "linkage disequilibrium", "runs of homozygosity", "core collection"],
+  "license": "cc-by-4.0",
+  "access_right": "open",
+  "language": "eng"
+}
