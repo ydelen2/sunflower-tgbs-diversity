@@ -73,6 +73,7 @@ cd $PROJ/analysis && bash run_all.sh
 | 14 | `slurm/14_review_extra.slurm` | unfiltered calls of the retained accessions for the removed-site check; reruns `R/24` and `R/20` |
 | 15 | `slurm/15_masking.slurm` | masking experiment: the non-imputed calls re-imputed with Beagle 5.4 as delivered and after masking 10 and 20 percent of the called genotypes, with runs of homozygosity on each set; then `R/25` |
 | 16 | `slurm/16_masking_summary.slurm` | the summary step of 15 on its own |
+| 17 | `slurm/17_depth_and_ld.slurm` | read depth of the removed and retained sites (Table S3f) and linkage disequilibrium corrected for kinship (Table S14d), both from the delivered matrices |
 
 ## Order of the R steps
 
@@ -101,12 +102,12 @@ cd $PROJ/analysis && bash run_all.sh
 kinship and for kinship and ancestry (Mangin et al. 2012) on the imputed
 genotype matrix, with the genomic relationship matrix (`data/Data1_kinship.csv`),
 Tables S1 and S6 and the list of retained sites as inputs, and writes
-Table S14d; it runs on a workstation in a few minutes.
+Table S14d; step 17 runs it.
 `scripts/replicate_discordance.py` compares the three libraries of the control
 accession on the delivered allele counts and writes Tables S3b and S3c, and
 `scripts/site_depth_by_filter.py` compares read depth and allele balance at the
 sites removed by the heterozygous call rate ceiling with the retained sites
-(Table S3f); step 13 calls both.
+(Table S3f); step 13 calls both, and step 17 repeats the depth comparison before the kinship-corrected linkage disequilibrium.
 
 `R/12_admixture.R` writes the cluster assignment of every accession, including
 those below the ancestry threshold of 0.60, which are labeled admixed. Steps
@@ -141,7 +142,7 @@ BCFtools 1.24 with HTSlib 1.24, ADMIXTURE 1.3.0, PopLDdecay commit 5dcd070,
 Beagle 5.1 (applied by the genotyping provider), R 4.3.3 with SNPRelate 1.36.0,
 adegenet 2.1.11, ape 5.8.1, poppr 2.9.8, hierfstat 0.5.11, vcfR 1.15.0,
 corehunter 3.2.3, data.table 1.17.8, ggtree 3.14.0 and ggplot2 3.5.2, and
-Python 3.11.
+Python 3.11 with numpy 2.4 and pandas 3.1.
 
 ## License
 

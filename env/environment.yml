@@ -9,6 +9,8 @@ name: sunflower
 channels: [conda-forge, bioconda]
 dependencies:
   - python=3.11
+  - numpy
+  - pandas
   - htslib            # bgzip, tabix
   - bcftools>=1.18
   - samtools>=1.18
