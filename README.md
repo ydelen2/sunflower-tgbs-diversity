@@ -71,6 +71,8 @@ cd $PROJ/analysis && bash run_all.sh
 | 12 | `slurm/12_ld_by_chromosome.slurm` | linkage disequilibrium decay per chromosome |
 | 13 | `slurm/13_review_checks.slurm` | checks added at peer review: relatedness pruning, non-imputed runs of homozygosity, identity-by-state distances, KING on the 276 libraries, linkage disequilibrium in ten random subsets of 23 accessions, ADMIXTURE without close relatives, replicate discordance, core benchmark; then `R/22` to `R/24` |
 | 14 | `slurm/14_review_extra.slurm` | unfiltered calls of the retained accessions for the removed-site check; reruns `R/24` and `R/20` |
+| 15 | `slurm/15_masking.slurm` | masking experiment: the non-imputed calls re-imputed with Beagle 5.4 as delivered and after masking 10 and 20 percent of the called genotypes, with runs of homozygosity on each set; then `R/25` |
+| 16 | `slurm/16_masking_summary.slurm` | the summary step of 15 on its own |
 
 ## Order of the R steps
 
@@ -93,6 +95,13 @@ cd $PROJ/analysis && bash run_all.sh
 | `R/23_review_prepare.R` | step 02 | Table S6b (relatedness within and between clusters) and the list of close relatives removed in step 13 |
 | `R/24_review_round1.R` | steps 02 to 07, 13 and 14, `R/12`, `R/16` | the tables added at peer review: Table 1 (unified diversity indices, receipt years), Table 2 (random subsets), Tables S1, S9, S10b, S15b (extended), S3b to S3e, S5c, S6c, S7c, S10d to S10f, S11d, S13b to S13e, S14c, S16d |
 
+| `R/25_masking_summary.R` | step 15, step 07 | Tables S13f and S13g (accuracy at the masked cells, genomic inbreeding of the re-imputed sets) |
+
+`scripts/ld_kinship_corrected.py` computes linkage disequilibrium corrected for
+kinship and for kinship and ancestry (Mangin et al. 2012) on the imputed
+genotype matrix, with the genomic relationship matrix (`data/Data1_kinship.csv`),
+Tables S1 and S6 and the list of retained sites as inputs, and writes
+Table S14d; it runs on a workstation in a few minutes.
 `scripts/replicate_discordance.py` compares the three libraries of the control
 accession on the delivered allele counts and writes Tables S3b and S3c, and
 `scripts/site_depth_by_filter.py` compares read depth and allele balance at the
