@@ -5,6 +5,9 @@ Analysis code and derived data for a panel of 274 cultivated sunflower
 System, genotyped with tunable genotyping by sequencing and analyzed against
 the HanXRQr2.0-SUNRISE assembly (GenBank GCF_002127325.2).
 
+The release used for the manuscript is archived in Zenodo,
+https://doi.org/10.5281/zenodo.23919622 (concept DOI covering all versions).
+
 ## Repository layout
 
 | path | content |
