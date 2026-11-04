@@ -81,9 +81,9 @@ draw <- function() {
   pushViewport(viewport(layout = grid.layout(2, 1, heights = unit(c(1.15, 1), "null"))))
   print(pa, vp = viewport(layout.pos.row = 1, layout.pos.col = 1))
   print(pb, vp = viewport(layout.pos.row = 2, layout.pos.col = 1))
-  grid.text("(a)", x = unit(0.012, "npc"), y = unit(0.985, "npc"), just = c("left", "top"),
+  grid.text("a", x = unit(0.012, "npc"), y = unit(0.985, "npc"), just = c("left", "top"),
             gp = gpar(fontface = "bold", fontsize = 13))
-  grid.text("(b)", x = unit(0.012, "npc"), y = unit(0.455, "npc"), just = c("left", "top"),
+  grid.text("b", x = unit(0.012, "npc"), y = unit(0.455, "npc"), just = c("left", "top"),
             gp = gpar(fontface = "bold", fontsize = 13))
 }
 cairo_pdf(file.path(FIG, "FigS10_ld_by_chromosome.pdf"), width = 7.5, height = 8.5); draw(); dev.off()
