@@ -14,8 +14,8 @@ https://doi.org/10.5281/zenodo.23919622 (concept DOI covering all versions).
 |---|---|
 | `config.sh` | paths, filtering thresholds and the ADMIXTURE grid; every script sources it |
 | `run_all.sh` | submits the cluster steps in dependency order |
-| `slurm/` | batch steps 01 to 17 |
-| `R/` | analysis and figure steps 00 to 25 |
+| `slurm/` | batch steps 01 to 18 |
+| `R/` | analysis and figure steps 00 to 26 |
 | `scripts/` | genotype conversion, per-accession statistics, GRIN retrieval, multi-panel figure assembly, replicate library discordance, read depth by site class, genotype masking, kinship-corrected linkage disequilibrium |
 | `env/environment.yml` | conda environment |
 | `ref/` | chromosome names and lengths of the reference assembly |
@@ -77,6 +77,7 @@ cd $PROJ/analysis && bash run_all.sh
 | 15 | `slurm/15_masking.slurm` | masking experiment: the non-imputed calls re-imputed with Beagle 5.4 as delivered and after masking 10 and 20 percent of the called genotypes, with runs of homozygosity on each set; then `R/25` |
 | 16 | `slurm/16_masking_summary.slurm` | the summary step of 15 on its own |
 | 17 | `slurm/17_depth_and_ld.slurm` | read depth of the removed and retained sites (Table S3f) and linkage disequilibrium corrected for kinship (Table S14d), both from the delivered matrices |
+| 18 | `slurm/18_ld_chromosome_figure.slurm` | Figure S10, the linkage disequilibrium decay of every chromosome from the output of step 12; runs `R/26` |
 
 ## Order of the R steps
 
@@ -100,6 +101,7 @@ cd $PROJ/analysis && bash run_all.sh
 | `R/24_review_round1.R` | steps 02 to 07, 13 and 14, `R/12`, `R/16` | the tables added at peer review: Table 1 (unified diversity indices, receipt years), Table 2 (random subsets), Tables S1, S9, S10b, S15b (extended), S3b to S3e, S5c, S6c, S7c, S10d to S10f, S11d, S13b to S13e, S14c, S16d |
 
 | `R/25_masking_summary.R` | step 15, step 07 | Tables S13f and S13g (accuracy at the masked cells, genomic inbreeding of the re-imputed sets) |
+| `R/26_ld_by_chromosome_figure.R` | step 12 | Figure S10 (decay curve of each chromosome and the value at 100 kb) |
 
 `scripts/ld_kinship_corrected.py` computes linkage disequilibrium corrected for
 kinship and for kinship and ancestry (Mangin et al. 2012) on the imputed
