@@ -510,7 +510,9 @@ if (file.exists(fk)) {
   setnames(k, sub("^#", "", names(k)))
   # plink2 writes IID1/IID2 (or FID1/IID1/FID2/IID2 when family ids are present)
   if ("IID1" %in% names(k)) setnames(k, c("IID1", "IID2"), c("ID1", "ID2"))
-  rep <- k[grepl("PI_490282", ID1) | grepl("PI_490282", ID2)]
+  # both members must be libraries of PI 490282; other accessions that pass the
+  # table filter with one of them are not replicates
+  rep <- k[grepl("^PI_490282", ID1) & grepl("^PI_490282", ID2)]
   dup <- k[(ID1 %in% c("PI_599764", "PI_497931") & ID2 %in% c("PI_599764", "PI_497931")) |
            (ID1 %in% c("PI_664196", "PI_664191") & ID2 %in% c("PI_664196", "PI_664191"))]
   out <- rbind(cbind(SET = "replicate libraries of PI 490282", rep), cbind(SET = "candidate duplicate accessions", dup))
