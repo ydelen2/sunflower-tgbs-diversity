@@ -1,7 +1,7 @@
 {
   "title": "Genome-wide diversity and population structure of 274 sunflower (Helianthus annuus L.) accessions: analysis code and data",
   "upload_type": "dataset",
-  "description": "Analysis code, filtered genotype matrices (233,264 SNPs by 274 accessions, non-imputed and imputed, VCF), derived tables and data files for a study of genetic diversity and population structure in 274 cultivated sunflower accessions of the USDA National Plant Germplasm System, genotyped by tunable genotyping by sequencing against the HanXRQr2.0-SUNRISE assembly. The repository holds the Slurm job scripts, R and Python code, the software environment specification, the parameter settings, the supplementary tables and the data files of the manuscript.",
+  "description": "Analysis code, filtered genotype matrices (233,264 SNPs by 274 accessions, non-imputed and imputed, VCF), derived tables and data files for a study of genetic diversity and population structure in 274 cultivated sunflower accessions of the USDA National Plant Germplasm System, genotyped by tunable genotyping by sequencing against the HanXRQr2.0-SUNRISE assembly. The study is published as: Delen, Y.; Palali-Delen, S.; Dweikat, I. Genome-Wide Diversity and Population Structure of 274 Sunflower (Helianthus annuus L.) Accessions. Genes 2026, 17, 1441. https://doi.org/10.3390/genes17111441. The repository holds the Slurm job scripts, R and Python code, the software environment specification, the parameter settings, the supplementary tables and the data files of the article.",
   "creators": [
     {
       "name": "Delen, Yavuz",
