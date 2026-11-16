@@ -5,8 +5,14 @@ Analysis code and derived data for a panel of 274 cultivated sunflower
 System, genotyped with tunable genotyping by sequencing and analyzed against
 the HanXRQr2.0-SUNRISE assembly (GenBank GCF_002127325.2).
 
-The release used for the manuscript is archived in Zenodo,
-https://doi.org/10.5281/zenodo.23919622 (concept DOI covering all versions).
+The code and data accompany the article
+
+Delen, Y.; Palali-Delen, S.; Dweikat, I. Genome-Wide Diversity and Population
+Structure of 274 Sunflower (*Helianthus annuus* L.) Accessions. *Genes* **2026**,
+*17*, 1441. https://doi.org/10.3390/genes17111441
+
+Every release is archived in Zenodo, https://doi.org/10.5281/zenodo.23919622
+(concept DOI covering all versions).
 
 ## Repository layout
 
@@ -21,16 +27,18 @@ https://doi.org/10.5281/zenodo.23919622 (concept DOI covering all versions).
 | `ref/` | chromosome names and lengths of the reference assembly |
 | `metadata/` | GRIN passport, descriptor and type records, sample lists, per-accession quality summary |
 | `data/` | nine large per-accession or per-window result files, and under `data/genotypes/` the filtered genotype matrices (VCF, non-imputed and imputed) |
-| `tables/main/` | the three main tables of the manuscript |
+| `tables/main/` | the three main tables of the article |
 | `tables/supplementary/` | the 16 supplementary tables; Tables S3, S5, S6, S7, S10, S11, S13, S14, S15 and S16 hold further blocks, in the files ending in `b` to `g` |
 | `tables/additional/` | replicate concordance, duplicate pairs and the imputation check of the principal components, whose values are given in the text |
 
 ## Input not included here
 
-The genotype delivery (247,008 and 503,188 site matrices, the imputed VCF and
-the per-accession allele counts) and the filtered VCF are too large for this
-repository and are archived separately; the accession number is given in the
-data availability statement of the associated manuscript. Genotyping used
+The genotype delivery of the provider (the 247,008- and 503,188-site matrices,
+the imputed VCF and the per-accession allele counts) is too large for this
+repository. The delivered genotype matrices were released with the two earlier
+studies of this panel at https://github.com/ydelen2/Sunflower_important_traits.
+The filtered genotype matrices analyzed here are under `data/genotypes/`.
+Genotyping used
 Bsp1286I, an Illumina HiSeq X instrument and GSNAP alignment, with only
 uniquely aligned reads used for variant calling.
 

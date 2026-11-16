@@ -29,5 +29,13 @@
   ],
   "license": "cc-by-4.0",
   "access_right": "open",
-  "language": "eng"
+  "language": "eng",
+  "related_identifiers": [
+    {
+      "identifier": "10.3390/genes17111441",
+      "relation": "isSupplementTo",
+      "resource_type": "publication-article",
+      "scheme": "doi"
+    }
+  ]
 }
